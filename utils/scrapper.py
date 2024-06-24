@@ -1,3 +1,14 @@
+import requests
+from bs4 import BeautifulSoup
+import time
+import pandas as pd
+import json
+import re
+from bs4 import BeautifulSoup
+import requests
+
+from utils.scrapper import Scrapper
+
 class Scrapper:
 
     def __init__(self) -> None:
@@ -32,5 +43,4 @@ class Scrapper:
 
 if __name__ == "__main__":
     s = Scrapper()
-    s.set_up()
     s.save()
