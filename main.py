@@ -1,3 +1,4 @@
+import os
 import requests
 from bs4 import BeautifulSoup
 import time
@@ -11,8 +12,9 @@ from utils.scrapper import Scrapper
 
 
 def main() :
+    os.system("cls")
     s = Scrapper()
-    s.save()
+    s.get_url_sale()
 
 if __name__ == '__main__':
     main()
