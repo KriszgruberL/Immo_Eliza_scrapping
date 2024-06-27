@@ -1,16 +1,2288 @@
 [
     {
-        "id": 1,
+        "url": "https://www.immoweb.be/en/classified/house/for-rent/gent/9000/20001634",
+        "zip_code": "9000",
+        "locality": "GENT",
+        "price": "1550",
+        "type": "RENT_REGULAR",
+        "type_of_property": "HOUSE",
+        "subtype_of_property": "HOUSE",
+        "energy_class": "B",
+        "heating_type": "Gas",
+        "construction_year": "2020",
+        "number_of_frontages": "3",
+        "surface_land": "150",
+        "surface_livable_space": "99",
+        "number_floors": "2",
+        "building_condition": "As new",
+        "surroundings_type": "Urban",
+        "furnished": true,
+        "rooms": {
+            "living_room": "23",
+            "dining_room": null,
+            "kitchen_type": {
+                "installed": "Installed",
+                "kitchen_surface": "25"
+            },
+            "bedrooms": {
+                "number": "2",
+                "surface": [
+                    "29",
+                    "20"
+                ]
+            },
+            "bathrooms": {
+                "number": "1"
+            },
+            "toilets": {
+                "number": "1"
+            },
+            "laundry_room": false,
+            "office": {
+                "presence": false,
+                "surface": null
+            },
+            "basement": {
+                "presence": false,
+                "surface": null
+            },
+            "attic": false
+        },
+        "extras": {
+            "open_fire": false
+        },
+        "exterior": {
+            "terrace": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "garden": {
+                "presence": true,
+                "surface": "47",
+                "orientation": null
+            },
+            "swimming_pool": "No"
+        },
+        "nb_of_rooms": 8
+    },
+    {
+        "url": "https://www.immoweb.be/en/classified/house/for-rent/ottignies-louvain-la-neuve/1340/20001129",
+        "zip_code": "1340",
+        "locality": "OTTIGNIES-LOUVAIN-LA-NEUVE",
+        "price": "1850",
+        "type": "RENT_REGULAR",
+        "type_of_property": "HOUSE",
+        "subtype_of_property": "HOUSE",
+        "energy_class": "B",
+        "heating_type": "Fuel oil",
+        "construction_year": "2021",
+        "number_of_frontages": "4",
+        "surface_land": "1",
+        "surface_livable_space": "220",
+        "number_floors": "1",
+        "building_condition": "As new",
+        "surroundings_type": "Countryside",
+        "furnished": false,
+        "rooms": {
+            "living_room": "55",
+            "dining_room": null,
+            "kitchen_type": {
+                "installed": "Hyper equipped",
+                "kitchen_surface": "20"
+            },
+            "bedrooms": {
+                "number": "4",
+                "surface": [
+                    "11",
+                    "21",
+                    "18",
+                    "11"
+                ]
+            },
+            "bathrooms": {
+                "number": "3"
+            },
+            "toilets": {
+                "number": "3"
+            },
+            "laundry_room": false,
+            "office": {
+                "presence": true,
+                "surface": null
+            },
+            "basement": {
+                "presence": true,
+                "surface": null
+            },
+            "attic": false
+        },
+        "extras": {
+            "open_fire": false
+        },
+        "exterior": {
+            "terrace": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "garden": {
+                "presence": true,
+                "surface": "1200",
+                "orientation": null
+            },
+            "swimming_pool": "No"
+        },
+        "nb_of_rooms": 14
+    },
+    {
+        "url": "https://www.immoweb.be/en/classified/ground-floor/for-rent/ixelles/1050/20003570",
+        "zip_code": "1050",
+        "locality": "IXELLES",
+        "price": "1660",
+        "type": "RENT_REGULAR",
+        "type_of_property": "APARTMENT",
+        "subtype_of_property": "GROUND_FLOOR",
+        "energy_class": "C",
+        "heating_type": "Gas",
+        "construction_year": "1975",
+        "number_of_frontages": null,
+        "surface_land": null,
+        "surface_livable_space": "100",
+        "number_floors": "4",
+        "building_condition": "As new",
+        "surroundings_type": "Isolated",
+        "furnished": false,
+        "rooms": {
+            "living_room": "25",
+            "dining_room": null,
+            "kitchen_type": {
+                "installed": "Hyper equipped",
+                "kitchen_surface": "11"
+            },
+            "bedrooms": {
+                "number": "2",
+                "surface": [
+                    "14",
+                    "10"
+                ]
+            },
+            "bathrooms": {
+                "number": "1"
+            },
+            "toilets": {
+                "number": "1"
+            },
+            "laundry_room": true,
+            "office": {
+                "presence": true,
+                "surface": "10"
+            },
+            "basement": {
+                "presence": false,
+                "surface": null
+            },
+            "attic": false
+        },
+        "extras": {
+            "open_fire": false
+        },
+        "exterior": {
+            "terrace": {
+                "presence": false,
+                "surface": "40",
+                "orientation": null
+            },
+            "garden": {
+                "presence": true,
+                "surface": "120",
+                "orientation": null
+            },
+            "swimming_pool": "No"
+        },
+        "nb_of_rooms": 9
+    },
+    {
+        "url": "https://www.immoweb.be/en/classified/ground-floor/for-rent/schaerbeek/1030/11490792",
+        "zip_code": "1030",
+        "locality": "SCHAERBEEK",
+        "price": "1250",
+        "type": "RENT_REGULAR",
+        "type_of_property": "APARTMENT",
+        "subtype_of_property": "GROUND_FLOOR",
+        "energy_class": "C",
+        "heating_type": "Gas",
+        "construction_year": "1875",
+        "number_of_frontages": "2",
+        "surface_land": null,
+        "surface_livable_space": "50",
+        "number_floors": "3",
+        "building_condition": "Just renovated",
+        "surroundings_type": "Isolated",
+        "furnished": true,
+        "rooms": {
+            "living_room": "17",
+            "dining_room": null,
+            "kitchen_type": {
+                "installed": "Hyper equipped",
+                "kitchen_surface": "9"
+            },
+            "bedrooms": {
+                "number": "1",
+                "surface": [
+                    "12"
+                ]
+            },
+            "bathrooms": {
+                "number": "1"
+            },
+            "toilets": {
+                "number": "1"
+            },
+            "laundry_room": true,
+            "office": {
+                "presence": false,
+                "surface": null
+            },
+            "basement": {
+                "presence": true,
+                "surface": null
+            },
+            "attic": false
+        },
+        "extras": {
+            "open_fire": false
+        },
+        "exterior": {
+            "terrace": {
+                "presence": false,
+                "surface": "4",
+                "orientation": null
+            },
+            "garden": {
+                "presence": true,
+                "surface": "63",
+                "orientation": null
+            },
+            "swimming_pool": "No"
+        },
+        "nb_of_rooms": 8
+    },
+    {
+        "url": "https://www.immoweb.be/en/classified/apartment/for-rent/bruxelles/1050/11490324",
+        "zip_code": "1050",
+        "locality": "BRUXELLES",
+        "price": "2600",
+        "type": "RENT_REGULAR",
+        "type_of_property": "APARTMENT",
+        "subtype_of_property": "APARTMENT",
+        "energy_class": "D",
+        "heating_type": "Gas",
+        "construction_year": "1958",
+        "number_of_frontages": "2",
+        "surface_land": null,
+        "surface_livable_space": "157",
+        "number_floors": "6",
+        "building_condition": "As new",
+        "surroundings_type": "Living area (residential, urban or rural)",
+        "furnished": true,
+        "rooms": {
+            "living_room": "57",
+            "dining_room": true,
+            "kitchen_type": {
+                "installed": "USA hyper equipped",
+                "kitchen_surface": "11"
+            },
+            "bedrooms": {
+                "number": "2",
+                "surface": [
+                    "20",
+                    "11"
+                ]
+            },
+            "bathrooms": {
+                "number": "2"
+            },
+            "toilets": {
+                "number": "2"
+            },
+            "laundry_room": true,
+            "office": {
+                "presence": true,
+                "surface": "11"
+            },
+            "basement": {
+                "presence": true,
+                "surface": "3"
+            },
+            "attic": false
+        },
+        "extras": {
+            "open_fire": false
+        },
+        "exterior": {
+            "terrace": {
+                "presence": false,
+                "surface": "8",
+                "orientation": null
+            },
+            "garden": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "swimming_pool": "No"
+        },
+        "nb_of_rooms": 12
+    },
+    {
+        "url": "https://www.immoweb.be/en/classified/apartment/for-rent/sint-lambrechts-woluwe/1200/11490965",
+        "zip_code": "1200",
+        "locality": "SINT-LAMBRECHTS-WOLUWE",
+        "price": "900",
+        "type": "RENT_REGULAR",
+        "type_of_property": "APARTMENT",
+        "subtype_of_property": "APARTMENT",
+        "energy_class": "G",
+        "heating_type": "Electric",
+        "construction_year": "2001",
+        "number_of_frontages": "2",
+        "surface_land": null,
+        "surface_livable_space": "56",
+        "number_floors": "5",
+        "building_condition": "As new",
+        "surroundings_type": "Living area (residential, urban or rural)",
+        "furnished": true,
+        "rooms": {
+            "living_room": "28",
+            "dining_room": null,
+            "kitchen_type": {
+                "installed": "Hyper equipped",
+                "kitchen_surface": "4"
+            },
+            "bedrooms": {
+                "number": "1",
+                "surface": [
+                    "12"
+                ]
+            },
+            "bathrooms": {
+                "number": "1"
+            },
+            "toilets": {
+                "number": "1"
+            },
+            "laundry_room": true,
+            "office": {
+                "presence": false,
+                "surface": null
+            },
+            "basement": {
+                "presence": false,
+                "surface": null
+            },
+            "attic": false
+        },
+        "extras": {
+            "open_fire": false
+        },
+        "exterior": {
+            "terrace": {
+                "presence": true,
+                "surface": "8",
+                "orientation": null
+            },
+            "garden": {
+                "presence": true,
+                "surface": "22",
+                "orientation": null
+            },
+            "swimming_pool": "No"
+        },
+        "nb_of_rooms": 8
+    },
+    {
+        "url": "https://www.immoweb.be/en/classified/apartment/for-rent/schaerbeek/1030/20001599",
+        "zip_code": "1030",
+        "locality": "SCHAERBEEK",
+        "price": "1450",
+        "type": "RENT_REGULAR",
+        "type_of_property": "APARTMENT",
+        "subtype_of_property": "APARTMENT",
+        "energy_class": "E",
+        "heating_type": "Fuel oil",
+        "construction_year": "1931",
+        "number_of_frontages": "2",
+        "surface_land": null,
+        "surface_livable_space": "110",
+        "number_floors": "14",
+        "building_condition": "As new",
+        "surroundings_type": "Urban",
+        "furnished": false,
+        "rooms": {
+            "living_room": "32",
+            "dining_room": null,
+            "kitchen_type": {
+                "installed": "Hyper equipped",
+                "kitchen_surface": "13"
+            },
+            "bedrooms": {
+                "number": "2",
+                "surface": [
+                    "16",
+                    "18"
+                ]
+            },
+            "bathrooms": {
+                "number": "1"
+            },
+            "toilets": {
+                "number": "1"
+            },
+            "laundry_room": true,
+            "office": {
+                "presence": true,
+                "surface": null
+            },
+            "basement": {
+                "presence": true,
+                "surface": null
+            },
+            "attic": false
+        },
+        "extras": {
+            "open_fire": false
+        },
+        "exterior": {
+            "terrace": {
+                "presence": false,
+                "surface": "4",
+                "orientation": null
+            },
+            "garden": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "swimming_pool": "No"
+        },
+        "nb_of_rooms": 9
+    },
+    {
+        "url": "https://www.immoweb.be/en/classified/apartment/for-rent/woluwe-saint-lambert/1200/20000952",
+        "zip_code": "1200",
+        "locality": "WOLUWE-SAINT-LAMBERT",
+        "price": "1450",
+        "type": "RENT_REGULAR",
+        "type_of_property": "APARTMENT",
+        "subtype_of_property": "APARTMENT",
+        "energy_class": "B",
+        "heating_type": "Gas",
+        "construction_year": "2007",
+        "number_of_frontages": "2",
+        "surface_land": null,
+        "surface_livable_space": "95",
+        "number_floors": "4",
+        "building_condition": "As new",
+        "surroundings_type": "Isolated",
+        "furnished": false,
+        "rooms": {
+            "living_room": "32",
+            "dining_room": null,
+            "kitchen_type": {
+                "installed": "Hyper equipped",
+                "kitchen_surface": "10"
+            },
+            "bedrooms": {
+                "number": "2",
+                "surface": [
+                    "15",
+                    "9"
+                ]
+            },
+            "bathrooms": {
+                "number": "1"
+            },
+            "toilets": {
+                "number": "1"
+            },
+            "laundry_room": true,
+            "office": {
+                "presence": false,
+                "surface": null
+            },
+            "basement": {
+                "presence": true,
+                "surface": null
+            },
+            "attic": false
+        },
+        "extras": {
+            "open_fire": false
+        },
+        "exterior": {
+            "terrace": {
+                "presence": true,
+                "surface": "11",
+                "orientation": null
+            },
+            "garden": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "swimming_pool": "No"
+        },
+        "nb_of_rooms": 9
+    },
+    {
+        "url": "https://www.immoweb.be/en/classified/apartment/for-rent/bruxelles/1000/20001664",
+        "zip_code": "1000",
+        "locality": "BRUXELLES",
+        "price": "1500",
+        "type": "RENT_REGULAR",
+        "type_of_property": "APARTMENT",
+        "subtype_of_property": "APARTMENT",
+        "energy_class": "F",
+        "heating_type": "Gas",
+        "construction_year": "1947",
+        "number_of_frontages": "2",
+        "surface_land": null,
+        "surface_livable_space": "107",
+        "number_floors": "4",
+        "building_condition": "As new",
+        "surroundings_type": "Urban",
+        "furnished": true,
+        "rooms": {
+            "living_room": "54",
+            "dining_room": null,
+            "kitchen_type": {
+                "installed": "Hyper equipped",
+                "kitchen_surface": null
+            },
+            "bedrooms": {
+                "number": "2",
+                "surface": [
+                    "19",
+                    "9"
+                ]
+            },
+            "bathrooms": {
+                "number": "2"
+            },
+            "toilets": {
+                "number": "1"
+            },
+            "laundry_room": true,
+            "office": {
+                "presence": false,
+                "surface": null
+            },
+            "basement": {
+                "presence": true,
+                "surface": null
+            },
+            "attic": false
+        },
+        "extras": {
+            "open_fire": false
+        },
+        "exterior": {
+            "terrace": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "garden": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "swimming_pool": "No"
+        },
+        "nb_of_rooms": 10
+    },
+    {
+        "url": "https://www.immoweb.be/en/classified/apartment/for-rent/woluwe-saint-lambert/1200/20002316",
+        "zip_code": "1200",
+        "locality": "WOLUWE-SAINT-LAMBERT",
+        "price": "950",
+        "type": "RENT_REGULAR",
+        "type_of_property": "APARTMENT",
+        "subtype_of_property": "APARTMENT",
+        "energy_class": "D",
+        "heating_type": "Gas",
+        "construction_year": "1925",
+        "number_of_frontages": "2",
+        "surface_land": null,
+        "surface_livable_space": "65",
+        "number_floors": "3",
+        "building_condition": "As new",
+        "surroundings_type": "Mall",
+        "furnished": false,
+        "rooms": {
+            "living_room": "20",
+            "dining_room": null,
+            "kitchen_type": {
+                "installed": "Installed",
+                "kitchen_surface": "12"
+            },
+            "bedrooms": {
+                "number": "1",
+                "surface": [
+                    "17"
+                ]
+            },
+            "bathrooms": {
+                "number": "1"
+            },
+            "toilets": {
+                "number": "1"
+            },
+            "laundry_room": false,
+            "office": {
+                "presence": false,
+                "surface": null
+            },
+            "basement": {
+                "presence": false,
+                "surface": null
+            },
+            "attic": false
+        },
+        "extras": {
+            "open_fire": false
+        },
+        "exterior": {
+            "terrace": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "garden": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "swimming_pool": "No"
+        },
+        "nb_of_rooms": 7
+    },
+    {
+        "url": "https://www.immoweb.be/en/classified/apartment/for-rent/machelen/1830/20003335",
+        "zip_code": "1830",
+        "locality": "MACHELEN",
+        "price": "1050",
+        "type": "RENT_REGULAR",
+        "type_of_property": "APARTMENT",
+        "subtype_of_property": "APARTMENT",
+        "energy_class": "E",
+        "heating_type": null,
+        "construction_year": "1960",
+        "number_of_frontages": "2",
+        "surface_land": null,
+        "surface_livable_space": "75",
+        "number_floors": "2",
+        "building_condition": "As new",
+        "surroundings_type": "Isolated",
+        "furnished": false,
+        "rooms": {
+            "living_room": "30",
+            "dining_room": true,
+            "kitchen_type": {
+                "installed": "Hyper equipped",
+                "kitchen_surface": "10"
+            },
+            "bedrooms": {
+                "number": "2",
+                "surface": [
+                    "15",
+                    "15"
+                ]
+            },
+            "bathrooms": {
+                "number": "1"
+            },
+            "toilets": {
+                "number": "1"
+            },
+            "laundry_room": true,
+            "office": {
+                "presence": false,
+                "surface": null
+            },
+            "basement": {
+                "presence": true,
+                "surface": null
+            },
+            "attic": false
+        },
+        "extras": {
+            "open_fire": false
+        },
+        "exterior": {
+            "terrace": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "garden": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "swimming_pool": "No"
+        },
+        "nb_of_rooms": 10
+    },
+    {
+        "url": "https://www.immoweb.be/en/classified/apartment/for-rent/woluwe-saint-lambert/1200/20001339",
+        "zip_code": "1200",
+        "locality": "WOLUWE-SAINT-LAMBERT",
+        "price": "1075",
+        "type": "RENT_REGULAR",
+        "type_of_property": "APARTMENT",
+        "subtype_of_property": "APARTMENT",
+        "energy_class": "B",
+        "heating_type": "Gas",
+        "construction_year": "2017",
+        "number_of_frontages": null,
+        "surface_land": null,
+        "surface_livable_space": "67",
+        "number_floors": "8",
+        "building_condition": "As new",
+        "surroundings_type": "Living area (residential, urban or rural)",
+        "furnished": false,
+        "rooms": {
+            "living_room": null,
+            "dining_room": null,
+            "kitchen_type": {
+                "installed": "Hyper equipped",
+                "kitchen_surface": null
+            },
+            "bedrooms": {
+                "number": "1",
+                "surface": [
+                    "13"
+                ]
+            },
+            "bathrooms": {
+                "number": "1"
+            },
+            "toilets": {
+                "number": "1"
+            },
+            "laundry_room": false,
+            "office": {
+                "presence": false,
+                "surface": null
+            },
+            "basement": {
+                "presence": false,
+                "surface": null
+            },
+            "attic": false
+        },
+        "extras": {
+            "open_fire": false
+        },
+        "exterior": {
+            "terrace": {
+                "presence": true,
+                "surface": "7",
+                "orientation": null
+            },
+            "garden": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "swimming_pool": "No"
+        },
+        "nb_of_rooms": 6
+    },
+    {
+        "url": "https://www.immoweb.be/en/classified/apartment/for-rent/woluwe-saint-lambert/1200/20001583",
+        "zip_code": "1200",
+        "locality": "WOLUWE-SAINT-LAMBERT",
+        "price": "1450",
+        "type": "RENT_REGULAR",
+        "type_of_property": "APARTMENT",
+        "subtype_of_property": "APARTMENT",
+        "energy_class": "D",
+        "heating_type": "Gas",
+        "construction_year": "1880",
+        "number_of_frontages": "2",
+        "surface_land": null,
+        "surface_livable_space": "100",
+        "number_floors": "3",
+        "building_condition": "As new",
+        "surroundings_type": "Living area (residential, urban or rural)",
+        "furnished": true,
+        "rooms": {
+            "living_room": "21",
+            "dining_room": true,
+            "kitchen_type": {
+                "installed": "Hyper equipped",
+                "kitchen_surface": "17"
+            },
+            "bedrooms": {
+                "number": "2",
+                "surface": [
+                    "21",
+                    "11"
+                ]
+            },
+            "bathrooms": {
+                "number": "1"
+            },
+            "toilets": {
+                "number": "2"
+            },
+            "laundry_room": false,
+            "office": {
+                "presence": false,
+                "surface": null
+            },
+            "basement": {
+                "presence": false,
+                "surface": null
+            },
+            "attic": false
+        },
+        "extras": {
+            "open_fire": false
+        },
+        "exterior": {
+            "terrace": {
+                "presence": false,
+                "surface": "4",
+                "orientation": null
+            },
+            "garden": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "swimming_pool": "No"
+        },
+        "nb_of_rooms": 10
+    },
+    {
+        "url": "https://www.immoweb.be/en/classified/apartment/for-rent/bruxelles/1000/20001214",
+        "zip_code": "1000",
+        "locality": "BRUXELLES",
+        "price": "1625",
+        "type": "RENT_REGULAR",
+        "type_of_property": "APARTMENT",
+        "subtype_of_property": "APARTMENT",
+        "energy_class": "B",
+        "heating_type": "Gas",
+        "construction_year": "2010",
+        "number_of_frontages": null,
+        "surface_land": null,
+        "surface_livable_space": "108",
+        "number_floors": "7",
+        "building_condition": "As new",
+        "surroundings_type": "Living area (residential, urban or rural)",
+        "furnished": false,
+        "rooms": {
+            "living_room": null,
+            "dining_room": null,
+            "kitchen_type": {
+                "installed": "Hyper equipped",
+                "kitchen_surface": null
+            },
+            "bedrooms": {
+                "number": "2",
+                "surface": [
+                    "17",
+                    "10"
+                ]
+            },
+            "bathrooms": {
+                "number": "1"
+            },
+            "toilets": {
+                "number": "1"
+            },
+            "laundry_room": false,
+            "office": {
+                "presence": false,
+                "surface": null
+            },
+            "basement": {
+                "presence": false,
+                "surface": null
+            },
+            "attic": false
+        },
+        "extras": {
+            "open_fire": false
+        },
+        "exterior": {
+            "terrace": {
+                "presence": true,
+                "surface": "24",
+                "orientation": null
+            },
+            "garden": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "swimming_pool": "No"
+        },
+        "nb_of_rooms": 7
+    },
+    {
+        "url": "https://www.immoweb.be/en/classified/apartment/for-rent/bruxelles/1000/20001549",
+        "zip_code": "1000",
+        "locality": "BRUXELLES",
+        "price": "1750",
+        "type": "RENT_REGULAR",
+        "type_of_property": "APARTMENT",
+        "subtype_of_property": "APARTMENT",
+        "energy_class": "D",
+        "heating_type": null,
+        "construction_year": "1971",
+        "number_of_frontages": "2",
+        "surface_land": null,
+        "surface_livable_space": "95",
+        "number_floors": "10",
+        "building_condition": "As new",
+        "surroundings_type": "Urban",
+        "furnished": true,
+        "rooms": {
+            "living_room": "35",
+            "dining_room": null,
+            "kitchen_type": {
+                "installed": "Hyper equipped",
+                "kitchen_surface": "11"
+            },
+            "bedrooms": {
+                "number": "2",
+                "surface": [
+                    "14",
+                    "11"
+                ]
+            },
+            "bathrooms": {
+                "number": "2"
+            },
+            "toilets": {
+                "number": "2"
+            },
+            "laundry_room": false,
+            "office": {
+                "presence": false,
+                "surface": null
+            },
+            "basement": {
+                "presence": true,
+                "surface": null
+            },
+            "attic": false
+        },
+        "extras": {
+            "open_fire": false
+        },
+        "exterior": {
+            "terrace": {
+                "presence": false,
+                "surface": "8",
+                "orientation": null
+            },
+            "garden": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "swimming_pool": "No"
+        },
+        "nb_of_rooms": 10
+    },
+    {
+        "url": "https://www.immoweb.be/en/classified/apartment/for-rent/etterbeek/1040/20002591",
+        "zip_code": "1040",
+        "locality": "ETTERBEEK",
+        "price": "2100",
+        "type": "RENT_REGULAR",
+        "type_of_property": "APARTMENT",
+        "subtype_of_property": "APARTMENT",
+        "energy_class": "D",
+        "heating_type": "Gas",
+        "construction_year": "2005",
+        "number_of_frontages": "2",
+        "surface_land": null,
+        "surface_livable_space": "92",
+        "number_floors": "6",
+        "building_condition": "Good",
+        "surroundings_type": "Living area (residential, urban or rural)",
+        "furnished": true,
+        "rooms": {
+            "living_room": "30",
+            "dining_room": null,
+            "kitchen_type": {
+                "installed": "Hyper equipped",
+                "kitchen_surface": "8"
+            },
+            "bedrooms": {
+                "number": "2",
+                "surface": [
+                    "15",
+                    "12"
+                ]
+            },
+            "bathrooms": {
+                "number": "2"
+            },
+            "toilets": {
+                "number": "2"
+            },
+            "laundry_room": true,
+            "office": {
+                "presence": false,
+                "surface": null
+            },
+            "basement": {
+                "presence": false,
+                "surface": null
+            },
+            "attic": false
+        },
+        "extras": {
+            "open_fire": false
+        },
+        "exterior": {
+            "terrace": {
+                "presence": true,
+                "surface": "18",
+                "orientation": null
+            },
+            "garden": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "swimming_pool": "No"
+        },
+        "nb_of_rooms": 11
+    },
+    {
+        "url": "https://www.immoweb.be/en/classified/apartment/for-rent/schaerbeek/1030/11490787",
+        "zip_code": "1030",
+        "locality": "SCHAERBEEK",
+        "price": "1200",
+        "type": "RENT_REGULAR",
+        "type_of_property": "APARTMENT",
+        "subtype_of_property": "APARTMENT",
+        "energy_class": "D",
+        "heating_type": "Gas",
+        "construction_year": "1870",
+        "number_of_frontages": "2",
+        "surface_land": null,
+        "surface_livable_space": "60",
+        "number_floors": "3",
+        "building_condition": "Just renovated",
+        "surroundings_type": "Isolated",
+        "furnished": true,
+        "rooms": {
+            "living_room": "16",
+            "dining_room": null,
+            "kitchen_type": {
+                "installed": "Hyper equipped",
+                "kitchen_surface": "8"
+            },
+            "bedrooms": {
+                "number": "1",
+                "surface": [
+                    "18"
+                ]
+            },
+            "bathrooms": {
+                "number": "1"
+            },
+            "toilets": {
+                "number": "1"
+            },
+            "laundry_room": true,
+            "office": {
+                "presence": false,
+                "surface": null
+            },
+            "basement": {
+                "presence": true,
+                "surface": null
+            },
+            "attic": false
+        },
+        "extras": {
+            "open_fire": false
+        },
+        "exterior": {
+            "terrace": {
+                "presence": false,
+                "surface": "4",
+                "orientation": null
+            },
+            "garden": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "swimming_pool": "No"
+        },
+        "nb_of_rooms": 8
+    },
+    {
+        "url": "https://www.immoweb.be/en/classified/penthouse/for-rent/schaerbeek/1030/11490784",
+        "zip_code": "1030",
+        "locality": "SCHAERBEEK",
+        "price": "1500",
+        "type": "RENT_REGULAR",
+        "type_of_property": "APARTMENT",
+        "subtype_of_property": "PENTHOUSE",
+        "energy_class": "C",
+        "heating_type": "Gas",
+        "construction_year": "1870",
+        "number_of_frontages": "2",
+        "surface_land": null,
+        "surface_livable_space": "110",
+        "number_floors": "3",
+        "building_condition": "Just renovated",
+        "surroundings_type": "Isolated",
+        "furnished": true,
+        "rooms": {
+            "living_room": "25",
+            "dining_room": true,
+            "kitchen_type": {
+                "installed": "Hyper equipped",
+                "kitchen_surface": "9"
+            },
+            "bedrooms": {
+                "number": "2",
+                "surface": [
+                    "15",
+                    "14"
+                ]
+            },
+            "bathrooms": {
+                "number": "1"
+            },
+            "toilets": {
+                "number": "1"
+            },
+            "laundry_room": true,
+            "office": {
+                "presence": false,
+                "surface": null
+            },
+            "basement": {
+                "presence": true,
+                "surface": null
+            },
+            "attic": false
+        },
+        "extras": {
+            "open_fire": false
+        },
+        "exterior": {
+            "terrace": {
+                "presence": false,
+                "surface": "4",
+                "orientation": null
+            },
+            "garden": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "swimming_pool": "No"
+        },
+        "nb_of_rooms": 10
+    },
+    {
+        "url": "https://www.immoweb.be/en/classified/ground-floor/for-rent/woluwe-saint-lambert/1200/11488259",
+        "zip_code": "1200",
+        "locality": "WOLUWE-SAINT-LAMBERT",
+        "price": "1025",
+        "type": "RENT_REGULAR",
+        "type_of_property": "APARTMENT",
+        "subtype_of_property": "GROUND_FLOOR",
+        "energy_class": "D",
+        "heating_type": "Gas",
+        "construction_year": "1975",
+        "number_of_frontages": null,
+        "surface_land": null,
+        "surface_livable_space": "70",
+        "number_floors": "3",
+        "building_condition": "As new",
+        "surroundings_type": "Living area (residential, urban or rural)",
+        "furnished": false,
+        "rooms": {
+            "living_room": "20",
+            "dining_room": null,
+            "kitchen_type": {
+                "installed": "Hyper equipped",
+                "kitchen_surface": "20"
+            },
+            "bedrooms": {
+                "number": "1",
+                "surface": [
+                    "20"
+                ]
+            },
+            "bathrooms": {
+                "number": "1"
+            },
+            "toilets": {
+                "number": "1"
+            },
+            "laundry_room": true,
+            "office": {
+                "presence": false,
+                "surface": null
+            },
+            "basement": {
+                "presence": true,
+                "surface": null
+            },
+            "attic": false
+        },
+        "extras": {
+            "open_fire": false
+        },
+        "exterior": {
+            "terrace": {
+                "presence": true,
+                "surface": "10",
+                "orientation": null
+            },
+            "garden": {
+                "presence": true,
+                "surface": "50",
+                "orientation": null
+            },
+            "swimming_pool": "No"
+        },
+        "nb_of_rooms": 8
+    },
+    {
+        "url": "https://www.immoweb.be/en/classified/apartment/for-rent/woluwe-saint-lambert/1200/20002855",
+        "zip_code": "1200",
+        "locality": "WOLUWE-SAINT-LAMBERT",
+        "price": "930",
+        "type": "RENT_REGULAR",
+        "type_of_property": "APARTMENT",
+        "subtype_of_property": "APARTMENT",
+        "energy_class": "F",
+        "heating_type": "Gas",
+        "construction_year": "1960",
+        "number_of_frontages": "3",
+        "surface_land": null,
+        "surface_livable_space": "83",
+        "number_floors": "3",
+        "building_condition": "As new",
+        "surroundings_type": "Isolated",
+        "furnished": false,
+        "rooms": {
+            "living_room": "23",
+            "dining_room": null,
+            "kitchen_type": {
+                "installed": "Installed",
+                "kitchen_surface": "6"
+            },
+            "bedrooms": {
+                "number": "1",
+                "surface": [
+                    "13"
+                ]
+            },
+            "bathrooms": {
+                "number": "1"
+            },
+            "toilets": {
+                "number": "1"
+            },
+            "laundry_room": false,
+            "office": {
+                "presence": false,
+                "surface": null
+            },
+            "basement": {
+                "presence": true,
+                "surface": null
+            },
+            "attic": false
+        },
+        "extras": {
+            "open_fire": false
+        },
+        "exterior": {
+            "terrace": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "garden": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "swimming_pool": "No"
+        },
+        "nb_of_rooms": 7
+    },
+    {
+        "url": "https://www.immoweb.be/en/classified/apartment/for-rent/schaerbeek/1030/20002834",
+        "zip_code": "1030",
+        "locality": "SCHAERBEEK",
+        "price": "1000",
+        "type": "RENT_REGULAR",
+        "type_of_property": "APARTMENT",
+        "subtype_of_property": "APARTMENT",
+        "energy_class": "E",
+        "heating_type": "Gas",
+        "construction_year": "1971",
+        "number_of_frontages": "2",
+        "surface_land": null,
+        "surface_livable_space": "85",
+        "number_floors": "13",
+        "building_condition": "Good",
+        "surroundings_type": "Living area (residential, urban or rural)",
+        "furnished": false,
+        "rooms": {
+            "living_room": "25",
+            "dining_room": true,
+            "kitchen_type": {
+                "installed": "Installed",
+                "kitchen_surface": "8"
+            },
+            "bedrooms": {
+                "number": "2",
+                "surface": [
+                    "14",
+                    "9"
+                ]
+            },
+            "bathrooms": {
+                "number": "1"
+            },
+            "toilets": {
+                "number": "1"
+            },
+            "laundry_room": false,
+            "office": {
+                "presence": false,
+                "surface": null
+            },
+            "basement": {
+                "presence": true,
+                "surface": null
+            },
+            "attic": false
+        },
+        "extras": {
+            "open_fire": false
+        },
+        "exterior": {
+            "terrace": {
+                "presence": false,
+                "surface": "18",
+                "orientation": null
+            },
+            "garden": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "swimming_pool": "No"
+        },
+        "nb_of_rooms": 9
+    },
+    {
+        "url": "https://www.immoweb.be/en/classified/apartment/for-rent/uccle/1180/20001219",
+        "zip_code": "1180",
+        "locality": "UCCLE",
+        "price": "1150",
+        "type": "RENT_REGULAR",
+        "type_of_property": "APARTMENT",
+        "subtype_of_property": "APARTMENT",
+        "energy_class": "A",
+        "heating_type": null,
+        "construction_year": "2019",
+        "number_of_frontages": "2",
+        "surface_land": null,
+        "surface_livable_space": "66",
+        "number_floors": "6",
+        "building_condition": "As new",
+        "surroundings_type": "Living area (residential, urban or rural)",
+        "furnished": false,
+        "rooms": {
+            "living_room": "15",
+            "dining_room": null,
+            "kitchen_type": {
+                "installed": "Hyper equipped",
+                "kitchen_surface": "8"
+            },
+            "bedrooms": {
+                "number": "1",
+                "surface": [
+                    "16"
+                ]
+            },
+            "bathrooms": {
+                "number": "1"
+            },
+            "toilets": {
+                "number": "1"
+            },
+            "laundry_room": true,
+            "office": {
+                "presence": false,
+                "surface": null
+            },
+            "basement": {
+                "presence": false,
+                "surface": null
+            },
+            "attic": false
+        },
+        "extras": {
+            "open_fire": false
+        },
+        "exterior": {
+            "terrace": {
+                "presence": false,
+                "surface": "10",
+                "orientation": null
+            },
+            "garden": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "swimming_pool": "No"
+        },
+        "nb_of_rooms": 8
+    },
+    {
+        "url": "https://www.immoweb.be/en/classified/apartment/for-rent/uccle/1180/20001328",
+        "zip_code": "1180",
+        "locality": "UCCLE",
+        "price": "2200",
+        "type": "RENT_REGULAR",
+        "type_of_property": "APARTMENT",
+        "subtype_of_property": "APARTMENT",
+        "energy_class": "A",
+        "heating_type": null,
+        "construction_year": "2019",
+        "number_of_frontages": "2",
+        "surface_land": null,
+        "surface_livable_space": "95",
+        "number_floors": "6",
+        "building_condition": "As new",
+        "surroundings_type": "Living area (residential, urban or rural)",
+        "furnished": true,
+        "rooms": {
+            "living_room": "20",
+            "dining_room": null,
+            "kitchen_type": {
+                "installed": "Hyper equipped",
+                "kitchen_surface": "8"
+            },
+            "bedrooms": {
+                "number": "2",
+                "surface": [
+                    "16",
+                    "12"
+                ]
+            },
+            "bathrooms": {
+                "number": "2"
+            },
+            "toilets": {
+                "number": "1"
+            },
+            "laundry_room": true,
+            "office": {
+                "presence": false,
+                "surface": null
+            },
+            "basement": {
+                "presence": false,
+                "surface": null
+            },
+            "attic": false
+        },
+        "extras": {
+            "open_fire": false
+        },
+        "exterior": {
+            "terrace": {
+                "presence": false,
+                "surface": "10",
+                "orientation": null
+            },
+            "garden": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "swimming_pool": "No"
+        },
+        "nb_of_rooms": 10
+    },
+    {
+        "url": "https://www.immoweb.be/en/classified/apartment/for-rent/elsene/1050/11491008",
+        "zip_code": "1050",
+        "locality": "ELSENE",
+        "price": "1250",
+        "type": "RENT_REGULAR",
+        "type_of_property": "APARTMENT",
+        "subtype_of_property": "APARTMENT",
+        "energy_class": "E",
+        "heating_type": "Electric",
+        "construction_year": "2006",
+        "number_of_frontages": "2",
+        "surface_land": null,
+        "surface_livable_space": "53",
+        "number_floors": "8",
+        "building_condition": "As new",
+        "surroundings_type": "Urban",
+        "furnished": true,
+        "rooms": {
+            "living_room": "35",
+            "dining_room": null,
+            "kitchen_type": {
+                "installed": "Hyper equipped",
+                "kitchen_surface": "6"
+            },
+            "bedrooms": {
+                "number": "1",
+                "surface": [
+                    "10"
+                ]
+            },
+            "bathrooms": {
+                "number": "1"
+            },
+            "toilets": {
+                "number": "1"
+            },
+            "laundry_room": true,
+            "office": {
+                "presence": false,
+                "surface": null
+            },
+            "basement": {
+                "presence": false,
+                "surface": null
+            },
+            "attic": false
+        },
+        "extras": {
+            "open_fire": false
+        },
+        "exterior": {
+            "terrace": {
+                "presence": true,
+                "surface": "16",
+                "orientation": null
+            },
+            "garden": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "swimming_pool": "No"
+        },
+        "nb_of_rooms": 8
+    },
+    {
+        "url": "https://www.immoweb.be/en/classified/apartment/for-rent/evere/1140/11489316",
+        "zip_code": "1140",
+        "locality": "EVERE",
+        "price": "1000",
+        "type": "RENT_REGULAR",
+        "type_of_property": "APARTMENT",
+        "subtype_of_property": "APARTMENT",
+        "energy_class": "B",
+        "heating_type": "Gas",
+        "construction_year": "2019",
+        "number_of_frontages": "2",
+        "surface_land": null,
+        "surface_livable_space": "61",
+        "number_floors": "12",
+        "building_condition": "As new",
+        "surroundings_type": "Living area (residential, urban or rural)",
+        "furnished": false,
+        "rooms": {
+            "living_room": null,
+            "dining_room": null,
+            "kitchen_type": {
+                "installed": "Hyper equipped",
+                "kitchen_surface": null
+            },
+            "bedrooms": {
+                "number": "1",
+                "surface": [
+                    "16"
+                ]
+            },
+            "bathrooms": {
+                "number": "1"
+            },
+            "toilets": {
+                "number": "1"
+            },
+            "laundry_room": true,
+            "office": {
+                "presence": false,
+                "surface": null
+            },
+            "basement": {
+                "presence": true,
+                "surface": null
+            },
+            "attic": false
+        },
+        "extras": {
+            "open_fire": false
+        },
+        "exterior": {
+            "terrace": {
+                "presence": true,
+                "surface": "8",
+                "orientation": null
+            },
+            "garden": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "swimming_pool": "No"
+        },
+        "nb_of_rooms": 7
+    },
+    {
+        "url": "https://www.immoweb.be/en/classified/apartment/for-rent/evere/1140/11489361",
+        "zip_code": "1140",
+        "locality": "EVERE",
+        "price": "1100",
+        "type": "RENT_REGULAR",
+        "type_of_property": "APARTMENT",
+        "subtype_of_property": "APARTMENT",
+        "energy_class": "B",
+        "heating_type": "Gas",
+        "construction_year": "2019",
+        "number_of_frontages": "2",
+        "surface_land": null,
+        "surface_livable_space": "61",
+        "number_floors": "12",
+        "building_condition": "As new",
+        "surroundings_type": "Living area (residential, urban or rural)",
+        "furnished": false,
+        "rooms": {
+            "living_room": null,
+            "dining_room": null,
+            "kitchen_type": {
+                "installed": "Hyper equipped",
+                "kitchen_surface": null
+            },
+            "bedrooms": {
+                "number": "1",
+                "surface": [
+                    "16"
+                ]
+            },
+            "bathrooms": {
+                "number": "1"
+            },
+            "toilets": {
+                "number": "1"
+            },
+            "laundry_room": true,
+            "office": {
+                "presence": false,
+                "surface": null
+            },
+            "basement": {
+                "presence": true,
+                "surface": null
+            },
+            "attic": false
+        },
+        "extras": {
+            "open_fire": false
+        },
+        "exterior": {
+            "terrace": {
+                "presence": true,
+                "surface": "8",
+                "orientation": null
+            },
+            "garden": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "swimming_pool": "No"
+        },
+        "nb_of_rooms": 7
+    },
+    {
+        "url": "https://www.immoweb.be/en/classified/penthouse/for-rent/auderghem/1160/11488630",
+        "zip_code": "1160",
+        "locality": "AUDERGHEM",
+        "price": "1275",
+        "type": "RENT_REGULAR",
+        "type_of_property": "APARTMENT",
+        "subtype_of_property": "PENTHOUSE",
+        "energy_class": "C",
+        "heating_type": "Gas",
+        "construction_year": "1966",
+        "number_of_frontages": null,
+        "surface_land": null,
+        "surface_livable_space": "90",
+        "number_floors": "3",
+        "building_condition": "As new",
+        "surroundings_type": "Living area (residential, urban or rural)",
+        "furnished": false,
+        "rooms": {
+            "living_room": "30",
+            "dining_room": null,
+            "kitchen_type": {
+                "installed": "Hyper equipped",
+                "kitchen_surface": null
+            },
+            "bedrooms": {
+                "number": "2",
+                "surface": [
+                    "14",
+                    "10"
+                ]
+            },
+            "bathrooms": {
+                "number": "1"
+            },
+            "toilets": {
+                "number": "1"
+            },
+            "laundry_room": true,
+            "office": {
+                "presence": false,
+                "surface": null
+            },
+            "basement": {
+                "presence": true,
+                "surface": null
+            },
+            "attic": false
+        },
+        "extras": {
+            "open_fire": false
+        },
+        "exterior": {
+            "terrace": {
+                "presence": true,
+                "surface": "8",
+                "orientation": null
+            },
+            "garden": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "swimming_pool": "No"
+        },
+        "nb_of_rooms": 9
+    },
+    {
+        "url": "https://www.immoweb.be/en/classified/penthouse/for-rent/auderghem/1160/11488631",
+        "zip_code": "1160",
+        "locality": "AUDERGHEM",
+        "price": "1500",
+        "type": "RENT_REGULAR",
+        "type_of_property": "APARTMENT",
+        "subtype_of_property": "PENTHOUSE",
+        "energy_class": "C",
+        "heating_type": "Gas",
+        "construction_year": "1966",
+        "number_of_frontages": null,
+        "surface_land": null,
+        "surface_livable_space": "90",
+        "number_floors": "3",
+        "building_condition": "As new",
+        "surroundings_type": "Living area (residential, urban or rural)",
+        "furnished": true,
+        "rooms": {
+            "living_room": "30",
+            "dining_room": null,
+            "kitchen_type": {
+                "installed": "Hyper equipped",
+                "kitchen_surface": null
+            },
+            "bedrooms": {
+                "number": "2",
+                "surface": [
+                    "14",
+                    "10"
+                ]
+            },
+            "bathrooms": {
+                "number": "1"
+            },
+            "toilets": {
+                "number": "1"
+            },
+            "laundry_room": true,
+            "office": {
+                "presence": false,
+                "surface": null
+            },
+            "basement": {
+                "presence": true,
+                "surface": null
+            },
+            "attic": false
+        },
+        "extras": {
+            "open_fire": false
+        },
+        "exterior": {
+            "terrace": {
+                "presence": true,
+                "surface": "8",
+                "orientation": null
+            },
+            "garden": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "swimming_pool": "No"
+        },
+        "nb_of_rooms": 9
+    },
+    {
+        "url": "https://www.immoweb.be/en/classified/apartment/for-rent/etterbeek/1040/20002475",
+        "zip_code": "1040",
+        "locality": "ETTERBEEK",
+        "price": "1100",
+        "type": "RENT_REGULAR",
+        "type_of_property": "APARTMENT",
+        "subtype_of_property": "APARTMENT",
+        "energy_class": "E",
+        "heating_type": "Electric",
+        "construction_year": "2002",
+        "number_of_frontages": "2",
+        "surface_land": null,
+        "surface_livable_space": "60",
+        "number_floors": "6",
+        "building_condition": "As new",
+        "surroundings_type": "Living area (residential, urban or rural)",
+        "furnished": true,
+        "rooms": {
+            "living_room": null,
+            "dining_room": null,
+            "kitchen_type": {
+                "installed": "Hyper equipped",
+                "kitchen_surface": null
+            },
+            "bedrooms": {
+                "number": "1",
+                "surface": [
+                    "12"
+                ]
+            },
+            "bathrooms": {
+                "number": "1"
+            },
+            "toilets": {
+                "number": "1"
+            },
+            "laundry_room": false,
+            "office": {
+                "presence": false,
+                "surface": null
+            },
+            "basement": {
+                "presence": false,
+                "surface": null
+            },
+            "attic": false
+        },
+        "extras": {
+            "open_fire": false
+        },
+        "exterior": {
+            "terrace": {
+                "presence": true,
+                "surface": "2",
+                "orientation": null
+            },
+            "garden": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "swimming_pool": "No"
+        },
+        "nb_of_rooms": 6
+    },
+    {
+        "url": "https://www.immoweb.be/en/classified/apartment/for-rent/etterbeek/1040/20002483",
+        "zip_code": "1040",
+        "locality": "ETTERBEEK",
+        "price": "1350",
+        "type": "RENT_REGULAR",
+        "type_of_property": "APARTMENT",
+        "subtype_of_property": "APARTMENT",
+        "energy_class": "C",
+        "heating_type": "Gas",
+        "construction_year": "2019",
+        "number_of_frontages": "2",
+        "surface_land": null,
+        "surface_livable_space": "68",
+        "number_floors": "3",
+        "building_condition": "Good",
+        "surroundings_type": "Urban",
+        "furnished": true,
+        "rooms": {
+            "living_room": null,
+            "dining_room": null,
+            "kitchen_type": {
+                "installed": "Hyper equipped",
+                "kitchen_surface": null
+            },
+            "bedrooms": {
+                "number": "1",
+                "surface": [
+                    "16"
+                ]
+            },
+            "bathrooms": {
+                "number": "1"
+            },
+            "toilets": {
+                "number": "1"
+            },
+            "laundry_room": false,
+            "office": {
+                "presence": false,
+                "surface": null
+            },
+            "basement": {
+                "presence": false,
+                "surface": null
+            },
+            "attic": false
+        },
+        "extras": {
+            "open_fire": false
+        },
+        "exterior": {
+            "terrace": {
+                "presence": true,
+                "surface": "2",
+                "orientation": null
+            },
+            "garden": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "swimming_pool": "No"
+        },
+        "nb_of_rooms": 6
+    },
+    {
+        "url": "https://www.immoweb.be/en/classified/apartment/for-sale/deurne/2100/20003344",
+        "zip_code": "2100",
+        "locality": "DEURNE",
+        "price": "235000",
+        "type": "BUY_REGULAR",
+        "type_of_property": "APARTMENT",
+        "subtype_of_property": "APARTMENT",
+        "energy_class": "B",
+        "heating_type": "Gas",
+        "construction_year": "2010",
+        "number_of_frontages": "2",
+        "surface_land": null,
+        "surface_livable_space": "90",
+        "number_floors": "3",
+        "building_condition": "Good",
+        "surroundings_type": null,
+        "furnished": false,
+        "rooms": {
+            "living_room": "48",
+            "dining_room": null,
+            "kitchen_type": {
+                "installed": "Installed",
+                "kitchen_surface": null
+            },
+            "bedrooms": {
+                "number": "2",
+                "surface": [
+                    "10",
+                    "9"
+                ]
+            },
+            "bathrooms": {
+                "number": "1"
+            },
+            "toilets": {
+                "number": "1"
+            },
+            "laundry_room": false,
+            "office": {
+                "presence": false,
+                "surface": null
+            },
+            "basement": {
+                "presence": true,
+                "surface": "7"
+            },
+            "attic": false
+        },
+        "extras": {
+            "open_fire": false
+        },
+        "exterior": {
+            "terrace": {
+                "presence": true,
+                "surface": "3",
+                "orientation": null
+            },
+            "garden": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "swimming_pool": false
+        },
+        "nb_of_rooms": 8
+    },
+    {
+        "url": "https://www.immoweb.be/en/classified/apartment/for-sale/berchem/2600/20003342",
+        "zip_code": "2600",
+        "locality": "BERCHEM",
+        "price": "275000",
+        "type": "BUY_REGULAR",
+        "type_of_property": "APARTMENT",
+        "subtype_of_property": "APARTMENT",
+        "energy_class": "B",
+        "heating_type": "Gas",
+        "construction_year": "1963",
+        "number_of_frontages": "2",
+        "surface_land": null,
+        "surface_livable_space": "80",
+        "number_floors": null,
+        "building_condition": "Just renovated",
+        "surroundings_type": null,
+        "furnished": false,
+        "rooms": {
+            "living_room": "26",
+            "dining_room": null,
+            "kitchen_type": {
+                "installed": "Installed",
+                "kitchen_surface": "7"
+            },
+            "bedrooms": {
+                "number": "2",
+                "surface": [
+                    "13",
+                    "12"
+                ]
+            },
+            "bathrooms": {
+                "number": "1"
+            },
+            "toilets": {
+                "number": "1"
+            },
+            "laundry_room": false,
+            "office": {
+                "presence": false,
+                "surface": null
+            },
+            "basement": {
+                "presence": true,
+                "surface": null
+            },
+            "attic": false
+        },
+        "extras": {
+            "open_fire": false
+        },
+        "exterior": {
+            "terrace": {
+                "presence": true,
+                "surface": "18",
+                "orientation": null
+            },
+            "garden": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "swimming_pool": false
+        },
+        "nb_of_rooms": 8
+    },
+    {
+        "url": "https://www.immoweb.be/en/classified/apartment/for-sale/lier/2500/20000906",
+        "zip_code": "2500",
+        "locality": "LIER",
+        "price": "240000",
+        "type": "BUY_REGULAR",
+        "type_of_property": "APARTMENT",
+        "subtype_of_property": "APARTMENT",
+        "energy_class": "B",
+        "heating_type": "Gas",
+        "construction_year": "1938",
+        "number_of_frontages": "2",
+        "surface_land": null,
+        "surface_livable_space": "69",
+        "number_floors": "2",
+        "building_condition": "Good",
+        "surroundings_type": "Compartmentalized",
+        "furnished": false,
+        "rooms": {
+            "living_room": "32",
+            "dining_room": null,
+            "kitchen_type": {
+                "installed": "Installed",
+                "kitchen_surface": null
+            },
+            "bedrooms": {
+                "number": "1",
+                "surface": [
+                    "16"
+                ]
+            },
+            "bathrooms": {
+                "number": "1"
+            },
+            "toilets": {
+                "number": "2"
+            },
+            "laundry_room": false,
+            "office": {
+                "presence": true,
+                "surface": "6"
+            },
+            "basement": {
+                "presence": false,
+                "surface": null
+            },
+            "attic": false
+        },
+        "extras": {
+            "open_fire": false
+        },
+        "exterior": {
+            "terrace": {
+                "presence": true,
+                "surface": "4",
+                "orientation": null
+            },
+            "garden": {
+                "presence": true,
+                "surface": "32",
+                "orientation": "South West"
+            },
+            "swimming_pool": false
+        },
+        "nb_of_rooms": 8
+    },
+    {
+        "url": "https://www.immoweb.be/en/classified/ground-floor/for-sale/lier/2500/20000907",
+        "zip_code": "2500",
+        "locality": "LIER",
+        "price": "349000",
+        "type": "BUY_REGULAR",
+        "type_of_property": "APARTMENT",
+        "subtype_of_property": "GROUND_FLOOR",
+        "energy_class": "B",
+        "heating_type": "Gas",
+        "construction_year": "1938",
+        "number_of_frontages": "2",
+        "surface_land": null,
+        "surface_livable_space": "86",
+        "number_floors": "2",
+        "building_condition": "Just renovated",
+        "surroundings_type": "Compartmentalized",
+        "furnished": false,
+        "rooms": {
+            "living_room": "40",
+            "dining_room": true,
+            "kitchen_type": {
+                "installed": "Installed",
+                "kitchen_surface": null
+            },
+            "bedrooms": {
+                "number": "2",
+                "surface": [
+                    "13",
+                    "9"
+                ]
+            },
+            "bathrooms": {
+                "number": "1"
+            },
+            "toilets": {
+                "number": "1"
+            },
+            "laundry_room": false,
+            "office": {
+                "presence": true,
+                "surface": null
+            },
+            "basement": {
+                "presence": false,
+                "surface": null
+            },
+            "attic": false
+        },
+        "extras": {
+            "open_fire": false
+        },
+        "exterior": {
+            "terrace": {
+                "presence": true,
+                "surface": "15",
+                "orientation": null
+            },
+            "garden": {
+                "presence": true,
+                "surface": "32",
+                "orientation": "South West"
+            },
+            "swimming_pool": false
+        },
+        "nb_of_rooms": 9
+    },
+    {
         "url": "https://www.immoweb.be/en/classified/house/for-sale/nassogne/6950/11485698",
         "zip_code": "6950",
         "locality": "NASSOGNE",
         "price": "249000",
+        "type": "BUY_REGULAR",
         "type_of_property": "HOUSE",
         "subtype_of_property": "HOUSE",
+        "energy_class": "E",
+        "heating_type": "Fuel oil",
         "construction_year": "1950",
-        "surface": "120",
+        "number_of_frontages": "2",
+        "surface_land": "320",
+        "surface_livable_space": "120",
         "number_floors": "3",
         "building_condition": "Just renovated",
+        "surroundings_type": "Countryside",
+        "furnished": false,
         "rooms": {
             "living_room": "16",
             "dining_room": true,
@@ -32,7 +2304,7 @@
             "toilets": {
                 "number": "2"
             },
-            "laundry_room": "Yes",
+            "laundry_room": true,
             "office": {
                 "presence": true,
                 "surface": "7"
@@ -43,959 +2315,54 @@
             },
             "attic": true
         },
+        "extras": {
+            "open_fire": false
+        },
+        "exterior": {
+            "terrace": {
+                "presence": true,
+                "surface": "15",
+                "orientation": null
+            },
+            "garden": {
+                "presence": true,
+                "surface": "100",
+                "orientation": "North East"
+            },
+            "swimming_pool": false
+        },
         "nb_of_rooms": 14
     },
     {
-        "id": 2,
-        "url": "https://www.immoweb.be/en/classified/apartment-block/for-sale/wavre/1300/11487279",
-        "zip_code": "1300",
-        "locality": "WAVRE",
-        "price": "645000",
-        "type_of_property": "HOUSE",
-        "subtype_of_property": "APARTMENT_BLOCK",
-        "construction_year": "1986",
-        "surface": "173",
-        "number_floors": "3",
-        "building_condition": "Good",
-        "rooms": {
-            "living_room": "25",
-            "dining_room": true,
-            "kitchen_type": {
-                "installed": "Installed",
-                "kitchen_surface": "7"
-            },
-            "bedrooms": {
-                "number": "4",
-                "surface": [
-                    "13",
-                    "13",
-                    "10",
-                    "10"
-                ]
-            },
-            "bathrooms": {
-                "number": "2"
-            },
-            "toilets": {
-                "number": "3"
-            },
-            "laundry_room": "Yes",
-            "office": {
-                "presence": false,
-                "surface": null
-            },
-            "basement": {
-                "presence": true,
-                "surface": "13"
-            },
-            "attic": true
-        },
-        "nb_of_rooms": 16
-    },
-    {
-        "id": 3,
-        "url": "https://www.immoweb.be/en/classified/new-real-estate-project-houses/for-sale/geraardsbergen-moerbeke/9500/20000382",
-        "zip_code": "9500",
-        "locality": "GERAARDSBERGEN MOERBEKE",
-        "price": "348000",
-        "type_of_property": "HOUSE_GROUP",
-        "subtype_of_property": "HOUSE_GROUP",
-        "construction_year": null,
-        "surface": null,
-        "number_floors": null,
-        "building_condition": null,
-        "rooms": {
-            "living_room": null,
-            "dining_room": null,
-            "kitchen_type": {
-                "installed": null,
-                "kitchen_surface": null
-            },
-            "bedrooms": {
-                "number": null,
-                "surface": []
-            },
-            "bathrooms": {
-                "number": null
-            },
-            "toilets": {
-                "number": null
-            },
-            "laundry_room": null,
-            "office": {
-                "presence": null,
-                "surface": null
-            },
-            "basement": {
-                "presence": null,
-                "surface": null
-            },
-            "attic": null
-        },
-        "nb_of_rooms": 6
-    },
-    {
-        "id": 4,
-        "url": "https://www.immoweb.be/en/classified/new-real-estate-project-houses/for-sale/deinze-astene/9800/11491961",
-        "zip_code": "9800",
-        "locality": "DEINZE ASTENE",
-        "price": "381000",
-        "type_of_property": "HOUSE_GROUP",
-        "subtype_of_property": "HOUSE_GROUP",
-        "construction_year": null,
-        "surface": null,
-        "number_floors": null,
-        "building_condition": null,
-        "rooms": {
-            "living_room": null,
-            "dining_room": null,
-            "kitchen_type": {
-                "installed": null,
-                "kitchen_surface": null
-            },
-            "bedrooms": {
-                "number": null,
-                "surface": []
-            },
-            "bathrooms": {
-                "number": null
-            },
-            "toilets": {
-                "number": null
-            },
-            "laundry_room": null,
-            "office": {
-                "presence": null,
-                "surface": null
-            },
-            "basement": {
-                "presence": null,
-                "surface": null
-            },
-            "attic": null
-        },
-        "nb_of_rooms": 6
-    },
-    {
-        "id": 5,
-        "url": "https://www.immoweb.be/en/classified/new-real-estate-project-houses/for-sale/zulte-machelen/9870/20001440",
-        "zip_code": "9870",
-        "locality": "ZULTE MACHELEN",
-        "price": "399000",
-        "type_of_property": "HOUSE_GROUP",
-        "subtype_of_property": "HOUSE_GROUP",
-        "construction_year": null,
-        "surface": null,
-        "number_floors": null,
-        "building_condition": null,
-        "rooms": {
-            "living_room": null,
-            "dining_room": null,
-            "kitchen_type": {
-                "installed": null,
-                "kitchen_surface": null
-            },
-            "bedrooms": {
-                "number": null,
-                "surface": []
-            },
-            "bathrooms": {
-                "number": null
-            },
-            "toilets": {
-                "number": null
-            },
-            "laundry_room": null,
-            "office": {
-                "presence": null,
-                "surface": null
-            },
-            "basement": {
-                "presence": null,
-                "surface": null
-            },
-            "attic": null
-        },
-        "nb_of_rooms": 6
-    },
-    {
-        "id": 6,
-        "url": "https://www.immoweb.be/en/classified/new-real-estate-project-houses/for-sale/chastre/1450/20000180",
-        "zip_code": "1450",
-        "locality": "CHASTRE",
-        "price": "415062",
-        "type_of_property": "HOUSE_GROUP",
-        "subtype_of_property": "HOUSE_GROUP",
-        "construction_year": null,
-        "surface": null,
-        "number_floors": null,
-        "building_condition": null,
-        "rooms": {
-            "living_room": null,
-            "dining_room": null,
-            "kitchen_type": {
-                "installed": null,
-                "kitchen_surface": null
-            },
-            "bedrooms": {
-                "number": null,
-                "surface": []
-            },
-            "bathrooms": {
-                "number": null
-            },
-            "toilets": {
-                "number": null
-            },
-            "laundry_room": null,
-            "office": {
-                "presence": null,
-                "surface": null
-            },
-            "basement": {
-                "presence": null,
-                "surface": null
-            },
-            "attic": null
-        },
-        "nb_of_rooms": 6
-    },
-    {
-        "id": 7,
-        "url": "https://www.immoweb.be/en/classified/new-real-estate-project-houses/for-sale/averbode/3271/11491613",
-        "zip_code": "3271",
-        "locality": "AVERBODE",
-        "price": "320500",
-        "type_of_property": "HOUSE_GROUP",
-        "subtype_of_property": "HOUSE_GROUP",
-        "construction_year": null,
-        "surface": null,
-        "number_floors": null,
-        "building_condition": null,
-        "rooms": {
-            "living_room": null,
-            "dining_room": null,
-            "kitchen_type": {
-                "installed": null,
-                "kitchen_surface": null
-            },
-            "bedrooms": {
-                "number": null,
-                "surface": []
-            },
-            "bathrooms": {
-                "number": null
-            },
-            "toilets": {
-                "number": null
-            },
-            "laundry_room": null,
-            "office": {
-                "presence": null,
-                "surface": null
-            },
-            "basement": {
-                "presence": null,
-                "surface": null
-            },
-            "attic": null
-        },
-        "nb_of_rooms": 6
-    },
-    {
-        "id": 8,
-        "url": "https://www.immoweb.be/en/classified/new-real-estate-project-houses/for-sale/turnhout/2300/11489810",
-        "zip_code": "2300",
-        "locality": "TURNHOUT",
-        "price": "381950",
-        "type_of_property": "HOUSE_GROUP",
-        "subtype_of_property": "HOUSE_GROUP",
-        "construction_year": null,
-        "surface": null,
-        "number_floors": null,
-        "building_condition": null,
-        "rooms": {
-            "living_room": null,
-            "dining_room": null,
-            "kitchen_type": {
-                "installed": null,
-                "kitchen_surface": null
-            },
-            "bedrooms": {
-                "number": null,
-                "surface": []
-            },
-            "bathrooms": {
-                "number": null
-            },
-            "toilets": {
-                "number": null
-            },
-            "laundry_room": null,
-            "office": {
-                "presence": null,
-                "surface": null
-            },
-            "basement": {
-                "presence": null,
-                "surface": null
-            },
-            "attic": null
-        },
-        "nb_of_rooms": 6
-    },
-    {
-        "id": 9,
-        "url": "https://www.immoweb.be/en/classified/new-real-estate-project-houses/for-sale/minderhout/2322/11489885",
-        "zip_code": "2322",
-        "locality": "MINDERHOUT",
-        "price": "475000",
-        "type_of_property": "HOUSE_GROUP",
-        "subtype_of_property": "HOUSE_GROUP",
-        "construction_year": null,
-        "surface": null,
-        "number_floors": null,
-        "building_condition": null,
-        "rooms": {
-            "living_room": null,
-            "dining_room": null,
-            "kitchen_type": {
-                "installed": null,
-                "kitchen_surface": null
-            },
-            "bedrooms": {
-                "number": null,
-                "surface": []
-            },
-            "bathrooms": {
-                "number": null
-            },
-            "toilets": {
-                "number": null
-            },
-            "laundry_room": null,
-            "office": {
-                "presence": null,
-                "surface": null
-            },
-            "basement": {
-                "presence": null,
-                "surface": null
-            },
-            "attic": null
-        },
-        "nb_of_rooms": 6
-    },
-    {
-        "id": 10,
-        "url": "https://www.immoweb.be/en/classified/house/for-sale/borgerhout/2140/20001659",
-        "zip_code": "2140",
-        "locality": "BORGERHOUT",
-        "price": "439000",
-        "type_of_property": "HOUSE",
-        "subtype_of_property": "HOUSE",
-        "construction_year": "2022",
-        "surface": "167",
-        "number_floors": "3",
-        "building_condition": "Just renovated",
-        "rooms": {
-            "living_room": "30",
-            "dining_room": null,
-            "kitchen_type": {
-                "installed": "Hyper equipped",
-                "kitchen_surface": "25"
-            },
-            "bedrooms": {
-                "number": "3",
-                "surface": [
-                    "32",
-                    "16",
-                    "16"
-                ]
-            },
-            "bathrooms": {
-                "number": "2"
-            },
-            "toilets": {
-                "number": "3"
-            },
-            "laundry_room": null,
-            "office": {
-                "presence": null,
-                "surface": null
-            },
-            "basement": {
-                "presence": null,
-                "surface": null
-            },
-            "attic": true
-        },
-        "nb_of_rooms": 13
-    },
-    {
-        "id": 11,
-        "url": "https://www.immoweb.be/en/classified/house/for-sale/hemiksem/2620/11491434",
-        "zip_code": "2620",
-        "locality": "HEMIKSEM",
-        "price": "239000",
-        "type_of_property": "HOUSE",
-        "subtype_of_property": "HOUSE",
-        "construction_year": "1930",
-        "surface": "98",
-        "number_floors": null,
-        "building_condition": "As new",
-        "rooms": {
-            "living_room": "22",
-            "dining_room": null,
-            "kitchen_type": {
-                "installed": "Installed",
-                "kitchen_surface": "18"
-            },
-            "bedrooms": {
-                "number": "2",
-                "surface": [
-                    "14",
-                    "12"
-                ]
-            },
-            "bathrooms": {
-                "number": "2"
-            },
-            "toilets": {
-                "number": "1"
-            },
-            "laundry_room": null,
-            "office": {
-                "presence": null,
-                "surface": null
-            },
-            "basement": {
-                "presence": true,
-                "surface": "9"
-            },
-            "attic": null
-        },
-        "nb_of_rooms": 9
-    },
-    {
-        "id": 12,
-        "url": "https://www.immoweb.be/en/classified/house/for-sale/wilrijk/2610/11489546",
-        "zip_code": "2610",
-        "locality": "WILRIJK",
-        "price": "319000",
-        "type_of_property": "HOUSE",
-        "subtype_of_property": "HOUSE",
-        "construction_year": "1931",
-        "surface": "117",
-        "number_floors": null,
+        "url": "https://www.immoweb.be/en/classified/apartment/for-sale/berchem/2600/20003343",
+        "zip_code": "2600",
+        "locality": "BERCHEM",
+        "price": "215000",
+        "type": "BUY_REGULAR",
+        "type_of_property": "APARTMENT",
+        "subtype_of_property": "APARTMENT",
+        "energy_class": "B",
+        "heating_type": "Gas",
+        "construction_year": "1969",
+        "number_of_frontages": "2",
+        "surface_land": null,
+        "surface_livable_space": "80",
+        "number_floors": "15",
         "building_condition": "To be done up",
+        "surroundings_type": null,
+        "furnished": false,
         "rooms": {
-            "living_room": "32",
-            "dining_room": true,
-            "kitchen_type": {
-                "installed": null,
-                "kitchen_surface": "22"
-            },
-            "bedrooms": {
-                "number": "2",
-                "surface": [
-                    "18",
-                    "17"
-                ]
-            },
-            "bathrooms": {
-                "number": "1"
-            },
-            "toilets": {
-                "number": "1"
-            },
-            "laundry_room": null,
-            "office": {
-                "presence": null,
-                "surface": null
-            },
-            "basement": {
-                "presence": null,
-                "surface": null
-            },
-            "attic": null
-        },
-        "nb_of_rooms": 9
-    },
-    {
-        "id": 13,
-        "url": "https://www.immoweb.be/en/classified/country-cottage/for-sale/wellin/6920/20001193",
-        "zip_code": "6920",
-        "locality": "WELLIN",
-        "price": "230000",
-        "type_of_property": "HOUSE",
-        "subtype_of_property": "COUNTRY_COTTAGE",
-        "construction_year": "1850",
-        "surface": "100",
-        "number_floors": "3",
-        "building_condition": "To renovate",
-        "rooms": {
-            "living_room": "18",
-            "dining_room": null,
-            "kitchen_type": {
-                "installed": null,
-                "kitchen_surface": null
-            },
-            "bedrooms": {
-                "number": "2",
-                "surface": []
-            },
-            "bathrooms": {
-                "number": "1"
-            },
-            "toilets": {
-                "number": "1"
-            },
-            "laundry_room": null,
-            "office": {
-                "presence": null,
-                "surface": null
-            },
-            "basement": {
-                "presence": null,
-                "surface": null
-            },
-            "attic": true
-        },
-        "nb_of_rooms": 9
-    },
-    {
-        "id": 14,
-        "url": "https://www.immoweb.be/en/classified/house/for-sale/ruisbroek/2870/20000629",
-        "zip_code": "2870",
-        "locality": "RUISBROEK",
-        "price": "294000",
-        "type_of_property": "HOUSE",
-        "subtype_of_property": "HOUSE",
-        "construction_year": "1954",
-        "surface": "148",
-        "number_floors": "2",
-        "building_condition": "Good",
-        "rooms": {
-            "living_room": null,
-            "dining_room": true,
-            "kitchen_type": {
-                "installed": "Semi equipped",
-                "kitchen_surface": null
-            },
-            "bedrooms": {
-                "number": "3",
-                "surface": [
-                    "18",
-                    "17",
-                    "9"
-                ]
-            },
-            "bathrooms": {
-                "number": "2"
-            },
-            "toilets": {
-                "number": "2"
-            },
-            "laundry_room": null,
-            "office": {
-                "presence": null,
-                "surface": null
-            },
-            "basement": {
-                "presence": null,
-                "surface": null
-            },
-            "attic": null
-        },
-        "nb_of_rooms": 11
-    },
-    {
-        "id": 15,
-        "url": "https://www.immoweb.be/en/classified/new-real-estate-project-houses/for-sale/paal/3583/11487724",
-        "zip_code": "3583",
-        "locality": "PAAL",
-        "price": "347355",
-        "type_of_property": "HOUSE_GROUP",
-        "subtype_of_property": "HOUSE_GROUP",
-        "construction_year": null,
-        "surface": null,
-        "number_floors": null,
-        "building_condition": null,
-        "rooms": {
-            "living_room": null,
-            "dining_room": null,
-            "kitchen_type": {
-                "installed": null,
-                "kitchen_surface": null
-            },
-            "bedrooms": {
-                "number": null,
-                "surface": []
-            },
-            "bathrooms": {
-                "number": null
-            },
-            "toilets": {
-                "number": null
-            },
-            "laundry_room": null,
-            "office": {
-                "presence": null,
-                "surface": null
-            },
-            "basement": {
-                "presence": null,
-                "surface": null
-            },
-            "attic": null
-        },
-        "nb_of_rooms": 6
-    },
-    {
-        "id": 16,
-        "url": "https://www.immoweb.be/en/classified/new-real-estate-project-houses/for-sale/ramillies/1367/11487568",
-        "zip_code": "1367",
-        "locality": "RAMILLIES",
-        "price": "385000",
-        "type_of_property": "HOUSE_GROUP",
-        "subtype_of_property": "HOUSE_GROUP",
-        "construction_year": null,
-        "surface": null,
-        "number_floors": null,
-        "building_condition": null,
-        "rooms": {
-            "living_room": null,
-            "dining_room": null,
-            "kitchen_type": {
-                "installed": null,
-                "kitchen_surface": null
-            },
-            "bedrooms": {
-                "number": null,
-                "surface": []
-            },
-            "bathrooms": {
-                "number": null
-            },
-            "toilets": {
-                "number": null
-            },
-            "laundry_room": null,
-            "office": {
-                "presence": null,
-                "surface": null
-            },
-            "basement": {
-                "presence": null,
-                "surface": null
-            },
-            "attic": null
-        },
-        "nb_of_rooms": 6
-    },
-    {
-        "id": 17,
-        "url": "https://www.immoweb.be/en/classified/house/for-sale/gelrode/3200/11487533",
-        "zip_code": "3200",
-        "locality": "GELRODE",
-        "price": "245000",
-        "type_of_property": "HOUSE",
-        "subtype_of_property": "HOUSE",
-        "construction_year": "1900",
-        "surface": "146",
-        "number_floors": null,
-        "building_condition": "Good",
-        "rooms": {
-            "living_room": "16",
-            "dining_room": true,
-            "kitchen_type": {
-                "installed": "Semi equipped",
-                "kitchen_surface": "15"
-            },
-            "bedrooms": {
-                "number": "2",
-                "surface": [
-                    "24",
-                    "15",
-                    "9"
-                ]
-            },
-            "bathrooms": {
-                "number": "1"
-            },
-            "toilets": {
-                "number": "1"
-            },
-            "laundry_room": null,
-            "office": {
-                "presence": null,
-                "surface": null
-            },
-            "basement": {
-                "presence": null,
-                "surface": null
-            },
-            "attic": null
-        },
-        "nb_of_rooms": 9
-    },
-    {
-        "id": 18,
-        "url": "https://www.immoweb.be/en/classified/house/for-sale/meise/1861/20001542",
-        "zip_code": "1861",
-        "locality": "MEISE",
-        "price": "1100000",
-        "type_of_property": "HOUSE",
-        "subtype_of_property": "HOUSE",
-        "construction_year": "1977",
-        "surface": "350",
-        "number_floors": "2",
-        "building_condition": "Good",
-        "rooms": {
-            "living_room": null,
-            "dining_room": null,
-            "kitchen_type": {
-                "installed": "Not installed",
-                "kitchen_surface": null
-            },
-            "bedrooms": {
-                "number": "4",
-                "surface": [
-                    "33",
-                    "35",
-                    "16",
-                    "15"
-                ]
-            },
-            "bathrooms": {
-                "number": "2"
-            },
-            "toilets": {
-                "number": "4"
-            },
-            "laundry_room": "Yes",
-            "office": {
-                "presence": null,
-                "surface": null
-            },
-            "basement": {
-                "presence": null,
-                "surface": null
-            },
-            "attic": null
-        },
-        "nb_of_rooms": 14
-    },
-    {
-        "id": 19,
-        "url": "https://www.immoweb.be/en/classified/house/for-sale/wilrijk/2610/11490966",
-        "zip_code": "2610",
-        "locality": "WILRIJK",
-        "price": "285000",
-        "type_of_property": "HOUSE",
-        "subtype_of_property": "HOUSE",
-        "construction_year": "1953",
-        "surface": "136",
-        "number_floors": null,
-        "building_condition": "To renovate",
-        "rooms": {
-            "living_room": "32",
+            "living_room": "28",
             "dining_room": null,
             "kitchen_type": {
                 "installed": "Semi equipped",
-                "kitchen_surface": "7"
-            },
-            "bedrooms": {
-                "number": "2",
-                "surface": [
-                    "17",
-                    "14"
-                ]
-            },
-            "bathrooms": {
-                "number": "1"
-            },
-            "toilets": {
-                "number": "2"
-            },
-            "laundry_room": null,
-            "office": {
-                "presence": true,
-                "surface": "4"
-            },
-            "basement": {
-                "presence": null,
-                "surface": null
-            },
-            "attic": null
-        },
-        "nb_of_rooms": 9
-    },
-    {
-        "id": 20,
-        "url": "https://www.immoweb.be/en/classified/house/for-sale/harelbeke/8530/20000117",
-        "zip_code": "8530",
-        "locality": "HARELBEKE",
-        "price": "356000",
-        "type_of_property": "HOUSE",
-        "subtype_of_property": "HOUSE",
-        "construction_year": "2012",
-        "surface": "120",
-        "number_floors": "2",
-        "building_condition": "Good",
-        "rooms": {
-            "living_room": null,
-            "dining_room": null,
-            "kitchen_type": {
-                "installed": "Installed",
-                "kitchen_surface": null
-            },
-            "bedrooms": {
-                "number": "3",
-                "surface": [
-                    "13",
-                    "11",
-                    "10"
-                ]
-            },
-            "bathrooms": {
-                "number": "1"
-            },
-            "toilets": {
-                "number": "1"
-            },
-            "laundry_room": null,
-            "office": {
-                "presence": null,
-                "surface": null
-            },
-            "basement": {
-                "presence": null,
-                "surface": null
-            },
-            "attic": null
-        },
-        "nb_of_rooms": 8
-    },
-    {
-        "id": 21,
-        "url": "https://www.immoweb.be/en/classified/house/for-sale/duffel/2570/20000999",
-        "zip_code": "2570",
-        "locality": "DUFFEL",
-        "price": "398000",
-        "type_of_property": "HOUSE",
-        "subtype_of_property": "HOUSE",
-        "construction_year": "1930",
-        "surface": "165",
-        "number_floors": "4",
-        "building_condition": null,
-        "rooms": {
-            "living_room": "49",
-            "dining_room": null,
-            "kitchen_type": {
-                "installed": "Semi equipped",
-                "kitchen_surface": null
-            },
-            "bedrooms": {
-                "number": "4",
-                "surface": [
-                    "17",
-                    "15",
-                    "13",
-                    "13"
-                ]
-            },
-            "bathrooms": {
-                "number": "2"
-            },
-            "toilets": {
-                "number": "2"
-            },
-            "laundry_room": null,
-            "office": {
-                "presence": null,
-                "surface": null
-            },
-            "basement": {
-                "presence": true,
-                "surface": "20"
-            },
-            "attic": true
-        },
-        "nb_of_rooms": 13
-    },
-    {
-        "id": 22,
-        "url": "https://www.immoweb.be/en/classified/villa/for-sale/kortrijk/8510/20000379",
-        "zip_code": "8510",
-        "locality": "KORTRIJK",
-        "price": "895000",
-        "type_of_property": "HOUSE",
-        "subtype_of_property": "VILLA",
-        "construction_year": "1946",
-        "surface": "400",
-        "number_floors": "2",
-        "building_condition": "Good",
-        "rooms": {
-            "living_room": "60",
-            "dining_room": null,
-            "kitchen_type": {
-                "installed": "Hyper equipped",
-                "kitchen_surface": "25"
+                "kitchen_surface": "8"
             },
             "bedrooms": {
                 "number": "3",
                 "surface": [
                     "15",
-                    "16",
-                    "14"
-                ]
-            },
-            "bathrooms": {
-                "number": "1"
-            },
-            "toilets": {
-                "number": "3"
-            },
-            "laundry_room": "Yes",
-            "office": {
-                "presence": true,
-                "surface": null
-            },
-            "basement": {
-                "presence": null,
-                "surface": null
-            },
-            "attic": null
-        },
-        "nb_of_rooms": 12
-    },
-    {
-        "id": 23,
-        "url": "https://www.immoweb.be/en/classified/house/for-sale/seraing/4100/11489782",
-        "zip_code": "4100",
-        "locality": "SERAING",
-        "price": "169000",
-        "type_of_property": "HOUSE",
-        "subtype_of_property": "HOUSE",
-        "construction_year": "1874",
-        "surface": "118",
-        "number_floors": "2",
-        "building_condition": "Good",
-        "rooms": {
-            "living_room": "27",
-            "dining_room": true,
-            "kitchen_type": {
-                "installed": "Installed",
-                "kitchen_surface": "7"
-            },
-            "bedrooms": {
-                "number": "4",
-                "surface": [
-                    "12",
-                    "9",
-                    "6",
+                    "7",
                     "6"
                 ]
             },
@@ -1003,129 +2370,67 @@
                 "number": "1"
             },
             "toilets": {
-                "number": "2"
+                "number": "1"
             },
-            "laundry_room": "Yes",
+            "laundry_room": false,
             "office": {
-                "presence": true,
-                "surface": "6"
+                "presence": false,
+                "surface": null
             },
             "basement": {
-                "presence": null,
+                "presence": false,
                 "surface": null
             },
             "attic": false
         },
-        "nb_of_rooms": 13
-    },
-    {
-        "id": 24,
-        "url": "https://www.immoweb.be/en/classified/house/for-sale/gent/9000/11491147",
-        "zip_code": "9000",
-        "locality": "GENT",
-        "price": "545000",
-        "type_of_property": "HOUSE",
-        "subtype_of_property": "HOUSE",
-        "construction_year": "1955",
-        "surface": "203",
-        "number_floors": "3",
-        "building_condition": "Just renovated",
-        "rooms": {
-            "living_room": null,
-            "dining_room": null,
-            "kitchen_type": {
-                "installed": "Installed",
-                "kitchen_surface": null
-            },
-            "bedrooms": {
-                "number": "4",
-                "surface": []
-            },
-            "bathrooms": {
-                "number": "2"
-            },
-            "toilets": {
-                "number": "3"
-            },
-            "laundry_room": null,
-            "office": {
-                "presence": null,
-                "surface": null
-            },
-            "basement": {
-                "presence": null,
-                "surface": null
-            },
-            "attic": null
+        "extras": {
+            "open_fire": false
         },
-        "nb_of_rooms": 12
-    },
-    {
-        "id": 25,
-        "url": "https://www.immoweb.be/en/classified/house/for-sale/mariakerke/9030/11491146",
-        "zip_code": "9030",
-        "locality": "MARIAKERKE",
-        "price": "545000",
-        "type_of_property": "HOUSE",
-        "subtype_of_property": "HOUSE",
-        "construction_year": "1955",
-        "surface": "203",
-        "number_floors": "3",
-        "building_condition": "Just renovated",
-        "rooms": {
-            "living_room": null,
-            "dining_room": null,
-            "kitchen_type": {
-                "installed": "Installed",
-                "kitchen_surface": null
+        "exterior": {
+            "terrace": {
+                "presence": true,
+                "surface": "5",
+                "orientation": null
             },
-            "bedrooms": {
-                "number": "4",
-                "surface": []
+            "garden": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
             },
-            "bathrooms": {
-                "number": "2"
-            },
-            "toilets": {
-                "number": "3"
-            },
-            "laundry_room": null,
-            "office": {
-                "presence": null,
-                "surface": null
-            },
-            "basement": {
-                "presence": null,
-                "surface": null
-            },
-            "attic": null
+            "swimming_pool": false
         },
-        "nb_of_rooms": 12
+        "nb_of_rooms": 9
     },
     {
-        "id": 26,
-        "url": "https://www.immoweb.be/en/classified/house/for-sale/gent/9051/11488460",
-        "zip_code": "9051",
-        "locality": "GENT",
-        "price": "289000",
-        "type_of_property": "HOUSE",
-        "subtype_of_property": "HOUSE",
-        "construction_year": "1950",
-        "surface": "100",
-        "number_floors": "2",
-        "building_condition": "Good",
+        "url": "https://www.immoweb.be/en/classified/penthouse/for-sale/ganshoren/1083/20003093",
+        "zip_code": "1083",
+        "locality": "GANSHOREN",
+        "price": "265000",
+        "type": "BUY_REGULAR",
+        "type_of_property": "APARTMENT",
+        "subtype_of_property": "PENTHOUSE",
+        "energy_class": "G",
+        "heating_type": "Gas",
+        "construction_year": "1965",
+        "number_of_frontages": "2",
+        "surface_land": null,
+        "surface_livable_space": "96",
+        "number_floors": "7",
+        "building_condition": "Just renovated",
+        "surroundings_type": "Isolated",
+        "furnished": false,
         "rooms": {
-            "living_room": "17",
+            "living_room": "30",
             "dining_room": null,
             "kitchen_type": {
-                "installed": "Installed",
-                "kitchen_surface": "10"
+                "installed": "Hyper equipped",
+                "kitchen_surface": "8"
             },
             "bedrooms": {
                 "number": "2",
                 "surface": [
-                    "20",
-                    "16"
+                    "15",
+                    "11"
                 ]
             },
             "bathrooms": {
@@ -1134,151 +2439,1443 @@
             "toilets": {
                 "number": "1"
             },
-            "laundry_room": null,
+            "laundry_room": true,
             "office": {
                 "presence": false,
                 "surface": null
             },
             "basement": {
                 "presence": true,
-                "surface": "8"
+                "surface": null
             },
             "attic": false
         },
-        "nb_of_rooms": 8
-    },
-    {
-        "id": 27,
-        "url": "https://www.immoweb.be/en/classified/house/for-sale/hoboken/2660/11485688",
-        "zip_code": "2660",
-        "locality": "HOBOKEN",
-        "price": "575000",
-        "type_of_property": "HOUSE",
-        "subtype_of_property": "HOUSE",
-        "construction_year": "1994",
-        "surface": "198",
-        "number_floors": null,
-        "building_condition": "Good",
-        "rooms": {
-            "living_room": "50",
-            "dining_room": null,
-            "kitchen_type": {
-                "installed": "Installed",
-                "kitchen_surface": "26"
-            },
-            "bedrooms": {
-                "number": "2",
-                "surface": [
-                    "25",
-                    "10"
-                ]
-            },
-            "bathrooms": {
-                "number": "1"
-            },
-            "toilets": {
-                "number": "2"
-            },
-            "laundry_room": null,
-            "office": {
-                "presence": null,
-                "surface": null
-            },
-            "basement": {
-                "presence": null,
-                "surface": null
-            },
-            "attic": true
+        "extras": {
+            "open_fire": false
         },
-        "nb_of_rooms": 10
-    },
-    {
-        "id": 28,
-        "url": "https://www.immoweb.be/en/classified/house/for-sale/weert/2880/20000925",
-        "zip_code": "2880",
-        "locality": "WEERT",
-        "price": "298000",
-        "type_of_property": "HOUSE",
-        "subtype_of_property": "HOUSE",
-        "construction_year": "1930",
-        "surface": "154",
-        "number_floors": null,
-        "building_condition": "Good",
-        "rooms": {
-            "living_room": "54",
-            "dining_room": null,
-            "kitchen_type": {
-                "installed": "Installed",
-                "kitchen_surface": null
+        "exterior": {
+            "terrace": {
+                "presence": false,
+                "surface": "10",
+                "orientation": null
             },
-            "bedrooms": {
-                "number": "2",
-                "surface": []
+            "garden": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
             },
-            "bathrooms": {
-                "number": "1"
-            },
-            "toilets": {
-                "number": null
-            },
-            "laundry_room": null,
-            "office": {
-                "presence": null,
-                "surface": null
-            },
-            "basement": {
-                "presence": null,
-                "surface": null
-            },
-            "attic": true
+            "swimming_pool": "No"
         },
         "nb_of_rooms": 9
     },
     {
-        "id": 29,
-        "url": "https://www.immoweb.be/en/classified/villa/for-sale/herzele/9550/20001047",
-        "zip_code": "9550",
-        "locality": "HERZELE",
-        "price": "849000",
-        "type_of_property": "HOUSE",
-        "subtype_of_property": "VILLA",
-        "construction_year": "2014",
-        "surface": "225",
-        "number_floors": "3",
+        "url": "https://www.immoweb.be/en/classified/apartment/for-sale/ixelles/1050/20002854",
+        "zip_code": "1050",
+        "locality": "IXELLES",
+        "price": "420000",
+        "type": "BUY_REGULAR",
+        "type_of_property": "APARTMENT",
+        "subtype_of_property": "APARTMENT",
+        "energy_class": "D",
+        "heating_type": "Gas",
+        "construction_year": "1870",
+        "number_of_frontages": "2",
+        "surface_land": null,
+        "surface_livable_space": "73",
+        "number_floors": "4",
         "building_condition": "As new",
+        "surroundings_type": "Urban",
+        "furnished": true,
         "rooms": {
-            "living_room": "45",
+            "living_room": "50",
             "dining_room": null,
             "kitchen_type": {
                 "installed": "Hyper equipped",
-                "kitchen_surface": "15"
+                "kitchen_surface": null
             },
             "bedrooms": {
-                "number": "4",
+                "number": "1",
                 "surface": [
-                    "135",
-                    "135",
-                    "135",
-                    "135"
+                    "14"
                 ]
             },
             "bathrooms": {
-                "number": "2"
+                "number": "1"
             },
             "toilets": {
-                "number": "3"
+                "number": "1"
             },
-            "laundry_room": "Yes",
+            "laundry_room": true,
             "office": {
-                "presence": true,
-                "surface": "26"
-            },
-            "basement": {
-                "presence": null,
+                "presence": false,
                 "surface": null
             },
-            "attic": null
+            "basement": {
+                "presence": true,
+                "surface": null
+            },
+            "attic": false
         },
-        "nb_of_rooms": 14
+        "extras": {
+            "open_fire": false
+        },
+        "exterior": {
+            "terrace": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "garden": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "swimming_pool": "No"
+        },
+        "nb_of_rooms": 8
+    },
+    {
+        "url": "https://www.immoweb.be/en/classified/new-real-estate-project-apartments/for-sale/lier/2500/20003115",
+        "zip_code": "2500",
+        "locality": "LIER",
+        "price": "210000",
+        "type": "BUY_REGULAR",
+        "type_of_property": "APARTMENT_GROUP",
+        "subtype_of_property": "APARTMENT_GROUP",
+        "energy_class": "Not specified",
+        "heating_type": null,
+        "construction_year": null,
+        "number_of_frontages": null,
+        "surface_land": null,
+        "surface_livable_space": null,
+        "number_floors": null,
+        "building_condition": null,
+        "surroundings_type": null,
+        "furnished": false,
+        "rooms": {
+            "living_room": null,
+            "dining_room": null,
+            "kitchen_type": {
+                "installed": false,
+                "kitchen_surface": null
+            },
+            "bedrooms": {
+                "number": null,
+                "surface": []
+            },
+            "bathrooms": {
+                "number": null
+            },
+            "toilets": {
+                "number": null
+            },
+            "laundry_room": false,
+            "office": {
+                "presence": false,
+                "surface": null
+            },
+            "basement": {
+                "presence": false,
+                "surface": null
+            },
+            "attic": false
+        },
+        "extras": {
+            "open_fire": false
+        },
+        "exterior": {
+            "terrace": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "garden": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "swimming_pool": false
+        },
+        "nb_of_rooms": 6
+    },
+    {
+        "url": "https://www.immoweb.be/en/classified/new-real-estate-project-apartments/for-sale/turnhout/2300/20002713",
+        "zip_code": "2300",
+        "locality": "TURNHOUT",
+        "price": "269000",
+        "type": "BUY_REGULAR",
+        "type_of_property": "APARTMENT_GROUP",
+        "subtype_of_property": "APARTMENT_GROUP",
+        "energy_class": "Not specified",
+        "heating_type": null,
+        "construction_year": null,
+        "number_of_frontages": null,
+        "surface_land": null,
+        "surface_livable_space": null,
+        "number_floors": null,
+        "building_condition": null,
+        "surroundings_type": null,
+        "furnished": false,
+        "rooms": {
+            "living_room": null,
+            "dining_room": null,
+            "kitchen_type": {
+                "installed": false,
+                "kitchen_surface": null
+            },
+            "bedrooms": {
+                "number": null,
+                "surface": []
+            },
+            "bathrooms": {
+                "number": null
+            },
+            "toilets": {
+                "number": null
+            },
+            "laundry_room": false,
+            "office": {
+                "presence": false,
+                "surface": null
+            },
+            "basement": {
+                "presence": false,
+                "surface": null
+            },
+            "attic": false
+        },
+        "extras": {
+            "open_fire": false
+        },
+        "exterior": {
+            "terrace": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "garden": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "swimming_pool": false
+        },
+        "nb_of_rooms": 6
+    },
+    {
+        "url": "https://www.immoweb.be/en/classified/new-real-estate-project-apartments/for-sale/oostakker/9041/20001607",
+        "zip_code": "9041",
+        "locality": "OOSTAKKER",
+        "price": "275000",
+        "type": "BUY_REGULAR",
+        "type_of_property": "APARTMENT_GROUP",
+        "subtype_of_property": "APARTMENT_GROUP",
+        "energy_class": "Not specified",
+        "heating_type": null,
+        "construction_year": null,
+        "number_of_frontages": null,
+        "surface_land": null,
+        "surface_livable_space": null,
+        "number_floors": null,
+        "building_condition": null,
+        "surroundings_type": null,
+        "furnished": false,
+        "rooms": {
+            "living_room": null,
+            "dining_room": null,
+            "kitchen_type": {
+                "installed": false,
+                "kitchen_surface": null
+            },
+            "bedrooms": {
+                "number": null,
+                "surface": []
+            },
+            "bathrooms": {
+                "number": null
+            },
+            "toilets": {
+                "number": null
+            },
+            "laundry_room": false,
+            "office": {
+                "presence": false,
+                "surface": null
+            },
+            "basement": {
+                "presence": false,
+                "surface": null
+            },
+            "attic": false
+        },
+        "extras": {
+            "open_fire": false
+        },
+        "exterior": {
+            "terrace": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "garden": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "swimming_pool": false
+        },
+        "nb_of_rooms": 6
+    },
+    {
+        "url": "https://www.immoweb.be/en/classified/new-real-estate-project-apartments/for-sale/deinze/9800/20001448",
+        "zip_code": "9800",
+        "locality": "DEINZE",
+        "price": "275000",
+        "type": "BUY_REGULAR",
+        "type_of_property": "APARTMENT_GROUP",
+        "subtype_of_property": "APARTMENT_GROUP",
+        "energy_class": "Not specified",
+        "heating_type": null,
+        "construction_year": null,
+        "number_of_frontages": null,
+        "surface_land": null,
+        "surface_livable_space": null,
+        "number_floors": null,
+        "building_condition": null,
+        "surroundings_type": null,
+        "furnished": false,
+        "rooms": {
+            "living_room": null,
+            "dining_room": null,
+            "kitchen_type": {
+                "installed": false,
+                "kitchen_surface": null
+            },
+            "bedrooms": {
+                "number": null,
+                "surface": []
+            },
+            "bathrooms": {
+                "number": null
+            },
+            "toilets": {
+                "number": null
+            },
+            "laundry_room": false,
+            "office": {
+                "presence": false,
+                "surface": null
+            },
+            "basement": {
+                "presence": false,
+                "surface": null
+            },
+            "attic": false
+        },
+        "extras": {
+            "open_fire": false
+        },
+        "exterior": {
+            "terrace": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "garden": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "swimming_pool": false
+        },
+        "nb_of_rooms": 6
+    },
+    {
+        "url": "https://www.immoweb.be/en/classified/new-real-estate-project-apartments/for-sale/gent/9000/20002059",
+        "zip_code": "9000",
+        "locality": "GENT",
+        "price": "295000",
+        "type": "BUY_REGULAR",
+        "type_of_property": "APARTMENT_GROUP",
+        "subtype_of_property": "APARTMENT_GROUP",
+        "energy_class": "Not specified",
+        "heating_type": null,
+        "construction_year": null,
+        "number_of_frontages": null,
+        "surface_land": null,
+        "surface_livable_space": null,
+        "number_floors": null,
+        "building_condition": null,
+        "surroundings_type": null,
+        "furnished": false,
+        "rooms": {
+            "living_room": null,
+            "dining_room": null,
+            "kitchen_type": {
+                "installed": false,
+                "kitchen_surface": null
+            },
+            "bedrooms": {
+                "number": null,
+                "surface": []
+            },
+            "bathrooms": {
+                "number": null
+            },
+            "toilets": {
+                "number": null
+            },
+            "laundry_room": false,
+            "office": {
+                "presence": false,
+                "surface": null
+            },
+            "basement": {
+                "presence": false,
+                "surface": null
+            },
+            "attic": false
+        },
+        "extras": {
+            "open_fire": false
+        },
+        "exterior": {
+            "terrace": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "garden": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "swimming_pool": false
+        },
+        "nb_of_rooms": 6
+    },
+    {
+        "url": "https://www.immoweb.be/en/classified/new-real-estate-project-apartments/for-sale/gent/9000/20002056",
+        "zip_code": "9000",
+        "locality": "GENT",
+        "price": "295000",
+        "type": "BUY_REGULAR",
+        "type_of_property": "APARTMENT_GROUP",
+        "subtype_of_property": "APARTMENT_GROUP",
+        "energy_class": "Not specified",
+        "heating_type": null,
+        "construction_year": null,
+        "number_of_frontages": null,
+        "surface_land": null,
+        "surface_livable_space": null,
+        "number_floors": null,
+        "building_condition": null,
+        "surroundings_type": null,
+        "furnished": false,
+        "rooms": {
+            "living_room": null,
+            "dining_room": null,
+            "kitchen_type": {
+                "installed": false,
+                "kitchen_surface": null
+            },
+            "bedrooms": {
+                "number": null,
+                "surface": []
+            },
+            "bathrooms": {
+                "number": null
+            },
+            "toilets": {
+                "number": null
+            },
+            "laundry_room": false,
+            "office": {
+                "presence": false,
+                "surface": null
+            },
+            "basement": {
+                "presence": false,
+                "surface": null
+            },
+            "attic": false
+        },
+        "extras": {
+            "open_fire": false
+        },
+        "exterior": {
+            "terrace": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "garden": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "swimming_pool": false
+        },
+        "nb_of_rooms": 6
+    },
+    {
+        "url": "https://www.immoweb.be/en/classified/new-real-estate-project-apartments/for-sale/sint-denijs-westrem/9051/20002058",
+        "zip_code": "9051",
+        "locality": "SINT-DENIJS-WESTREM",
+        "price": "295000",
+        "type": "BUY_REGULAR",
+        "type_of_property": "APARTMENT_GROUP",
+        "subtype_of_property": "APARTMENT_GROUP",
+        "energy_class": "Not specified",
+        "heating_type": null,
+        "construction_year": null,
+        "number_of_frontages": null,
+        "surface_land": null,
+        "surface_livable_space": null,
+        "number_floors": null,
+        "building_condition": null,
+        "surroundings_type": null,
+        "furnished": false,
+        "rooms": {
+            "living_room": null,
+            "dining_room": null,
+            "kitchen_type": {
+                "installed": false,
+                "kitchen_surface": null
+            },
+            "bedrooms": {
+                "number": null,
+                "surface": []
+            },
+            "bathrooms": {
+                "number": null
+            },
+            "toilets": {
+                "number": null
+            },
+            "laundry_room": false,
+            "office": {
+                "presence": false,
+                "surface": null
+            },
+            "basement": {
+                "presence": false,
+                "surface": null
+            },
+            "attic": false
+        },
+        "extras": {
+            "open_fire": false
+        },
+        "exterior": {
+            "terrace": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "garden": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "swimming_pool": false
+        },
+        "nb_of_rooms": 6
+    },
+    {
+        "url": "https://www.immoweb.be/en/classified/new-real-estate-project-apartments/for-sale/sint-denijs-westrem/9051/20002057",
+        "zip_code": "9051",
+        "locality": "SINT-DENIJS-WESTREM",
+        "price": "295000",
+        "type": "BUY_REGULAR",
+        "type_of_property": "APARTMENT_GROUP",
+        "subtype_of_property": "APARTMENT_GROUP",
+        "energy_class": "Not specified",
+        "heating_type": null,
+        "construction_year": null,
+        "number_of_frontages": null,
+        "surface_land": null,
+        "surface_livable_space": null,
+        "number_floors": null,
+        "building_condition": null,
+        "surroundings_type": null,
+        "furnished": false,
+        "rooms": {
+            "living_room": null,
+            "dining_room": null,
+            "kitchen_type": {
+                "installed": false,
+                "kitchen_surface": null
+            },
+            "bedrooms": {
+                "number": null,
+                "surface": []
+            },
+            "bathrooms": {
+                "number": null
+            },
+            "toilets": {
+                "number": null
+            },
+            "laundry_room": false,
+            "office": {
+                "presence": false,
+                "surface": null
+            },
+            "basement": {
+                "presence": false,
+                "surface": null
+            },
+            "attic": false
+        },
+        "extras": {
+            "open_fire": false
+        },
+        "exterior": {
+            "terrace": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "garden": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "swimming_pool": false
+        },
+        "nb_of_rooms": 6
+    },
+    {
+        "url": "https://www.immoweb.be/en/classified/new-real-estate-project-apartments/for-sale/braine-lalleud/1420/20001752",
+        "zip_code": "1420",
+        "locality": "BRAINE-L'ALLEUD",
+        "price": "296000",
+        "type": "BUY_REGULAR",
+        "type_of_property": "APARTMENT_GROUP",
+        "subtype_of_property": "APARTMENT_GROUP",
+        "energy_class": "Not specified",
+        "heating_type": null,
+        "construction_year": null,
+        "number_of_frontages": null,
+        "surface_land": null,
+        "surface_livable_space": null,
+        "number_floors": null,
+        "building_condition": null,
+        "surroundings_type": null,
+        "furnished": false,
+        "rooms": {
+            "living_room": null,
+            "dining_room": null,
+            "kitchen_type": {
+                "installed": false,
+                "kitchen_surface": null
+            },
+            "bedrooms": {
+                "number": null,
+                "surface": []
+            },
+            "bathrooms": {
+                "number": null
+            },
+            "toilets": {
+                "number": null
+            },
+            "laundry_room": false,
+            "office": {
+                "presence": false,
+                "surface": null
+            },
+            "basement": {
+                "presence": false,
+                "surface": null
+            },
+            "attic": false
+        },
+        "extras": {
+            "open_fire": false
+        },
+        "exterior": {
+            "terrace": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "garden": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "swimming_pool": false
+        },
+        "nb_of_rooms": 6
+    },
+    {
+        "url": "https://www.immoweb.be/en/classified/new-real-estate-project-apartments/for-sale/gent/9040/20001060",
+        "zip_code": "9040",
+        "locality": "GENT",
+        "price": "309000",
+        "type": "BUY_REGULAR",
+        "type_of_property": "APARTMENT_GROUP",
+        "subtype_of_property": "APARTMENT_GROUP",
+        "energy_class": "Not specified",
+        "heating_type": null,
+        "construction_year": null,
+        "number_of_frontages": null,
+        "surface_land": null,
+        "surface_livable_space": null,
+        "number_floors": null,
+        "building_condition": null,
+        "surroundings_type": null,
+        "furnished": false,
+        "rooms": {
+            "living_room": null,
+            "dining_room": null,
+            "kitchen_type": {
+                "installed": false,
+                "kitchen_surface": null
+            },
+            "bedrooms": {
+                "number": null,
+                "surface": []
+            },
+            "bathrooms": {
+                "number": null
+            },
+            "toilets": {
+                "number": null
+            },
+            "laundry_room": false,
+            "office": {
+                "presence": false,
+                "surface": null
+            },
+            "basement": {
+                "presence": false,
+                "surface": null
+            },
+            "attic": false
+        },
+        "extras": {
+            "open_fire": false
+        },
+        "exterior": {
+            "terrace": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "garden": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "swimming_pool": false
+        },
+        "nb_of_rooms": 6
+    },
+    {
+        "url": "https://www.immoweb.be/en/classified/new-real-estate-project-apartments/for-sale/ronse/9600/20003477",
+        "zip_code": "9600",
+        "locality": "RONSE",
+        "price": "321694",
+        "type": "BUY_REGULAR",
+        "type_of_property": "APARTMENT_GROUP",
+        "subtype_of_property": "APARTMENT_GROUP",
+        "energy_class": "Not specified",
+        "heating_type": null,
+        "construction_year": null,
+        "number_of_frontages": null,
+        "surface_land": null,
+        "surface_livable_space": null,
+        "number_floors": null,
+        "building_condition": null,
+        "surroundings_type": null,
+        "furnished": false,
+        "rooms": {
+            "living_room": null,
+            "dining_room": null,
+            "kitchen_type": {
+                "installed": false,
+                "kitchen_surface": null
+            },
+            "bedrooms": {
+                "number": null,
+                "surface": []
+            },
+            "bathrooms": {
+                "number": null
+            },
+            "toilets": {
+                "number": null
+            },
+            "laundry_room": false,
+            "office": {
+                "presence": false,
+                "surface": null
+            },
+            "basement": {
+                "presence": false,
+                "surface": null
+            },
+            "attic": false
+        },
+        "extras": {
+            "open_fire": false
+        },
+        "exterior": {
+            "terrace": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "garden": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "swimming_pool": false
+        },
+        "nb_of_rooms": 6
+    },
+    {
+        "url": "https://www.immoweb.be/en/classified/new-real-estate-project-apartments/for-sale/turnhout/2300/20002777",
+        "zip_code": "2300",
+        "locality": "TURNHOUT",
+        "price": "325000",
+        "type": "BUY_REGULAR",
+        "type_of_property": "APARTMENT_GROUP",
+        "subtype_of_property": "APARTMENT_GROUP",
+        "energy_class": "Not specified",
+        "heating_type": null,
+        "construction_year": null,
+        "number_of_frontages": null,
+        "surface_land": null,
+        "surface_livable_space": null,
+        "number_floors": null,
+        "building_condition": null,
+        "surroundings_type": null,
+        "furnished": false,
+        "rooms": {
+            "living_room": null,
+            "dining_room": null,
+            "kitchen_type": {
+                "installed": false,
+                "kitchen_surface": null
+            },
+            "bedrooms": {
+                "number": null,
+                "surface": []
+            },
+            "bathrooms": {
+                "number": null
+            },
+            "toilets": {
+                "number": null
+            },
+            "laundry_room": false,
+            "office": {
+                "presence": false,
+                "surface": null
+            },
+            "basement": {
+                "presence": false,
+                "surface": null
+            },
+            "attic": false
+        },
+        "extras": {
+            "open_fire": false
+        },
+        "exterior": {
+            "terrace": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "garden": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "swimming_pool": false
+        },
+        "nb_of_rooms": 6
+    },
+    {
+        "url": "https://www.immoweb.be/en/classified/new-real-estate-project-houses/for-sale/deinze/9800/20002665",
+        "zip_code": "9800",
+        "locality": "DEINZE",
+        "price": "349001",
+        "type": "BUY_REGULAR",
+        "type_of_property": "HOUSE_GROUP",
+        "subtype_of_property": "HOUSE_GROUP",
+        "energy_class": "Not specified",
+        "heating_type": null,
+        "construction_year": null,
+        "number_of_frontages": null,
+        "surface_land": null,
+        "surface_livable_space": null,
+        "number_floors": null,
+        "building_condition": null,
+        "surroundings_type": null,
+        "furnished": false,
+        "rooms": {
+            "living_room": null,
+            "dining_room": null,
+            "kitchen_type": {
+                "installed": false,
+                "kitchen_surface": null
+            },
+            "bedrooms": {
+                "number": null,
+                "surface": []
+            },
+            "bathrooms": {
+                "number": null
+            },
+            "toilets": {
+                "number": null
+            },
+            "laundry_room": false,
+            "office": {
+                "presence": false,
+                "surface": null
+            },
+            "basement": {
+                "presence": false,
+                "surface": null
+            },
+            "attic": false
+        },
+        "extras": {
+            "open_fire": false
+        },
+        "exterior": {
+            "terrace": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "garden": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "swimming_pool": false
+        },
+        "nb_of_rooms": 6
+    },
+    {
+        "url": "https://www.immoweb.be/en/classified/new-real-estate-project-apartments/for-sale/nazareth/9810/20003217",
+        "zip_code": "9810",
+        "locality": "NAZARETH",
+        "price": "366000",
+        "type": "BUY_REGULAR",
+        "type_of_property": "APARTMENT_GROUP",
+        "subtype_of_property": "APARTMENT_GROUP",
+        "energy_class": "Not specified",
+        "heating_type": null,
+        "construction_year": null,
+        "number_of_frontages": null,
+        "surface_land": null,
+        "surface_livable_space": null,
+        "number_floors": null,
+        "building_condition": null,
+        "surroundings_type": null,
+        "furnished": false,
+        "rooms": {
+            "living_room": null,
+            "dining_room": null,
+            "kitchen_type": {
+                "installed": false,
+                "kitchen_surface": null
+            },
+            "bedrooms": {
+                "number": null,
+                "surface": []
+            },
+            "bathrooms": {
+                "number": null
+            },
+            "toilets": {
+                "number": null
+            },
+            "laundry_room": false,
+            "office": {
+                "presence": false,
+                "surface": null
+            },
+            "basement": {
+                "presence": false,
+                "surface": null
+            },
+            "attic": false
+        },
+        "extras": {
+            "open_fire": false
+        },
+        "exterior": {
+            "terrace": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "garden": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "swimming_pool": false
+        },
+        "nb_of_rooms": 6
+    },
+    {
+        "url": "https://www.immoweb.be/en/classified/new-real-estate-project-houses/for-sale/zottegem/9620/20002898",
+        "zip_code": "9620",
+        "locality": "ZOTTEGEM",
+        "price": "393000",
+        "type": "BUY_REGULAR",
+        "type_of_property": "HOUSE_GROUP",
+        "subtype_of_property": "HOUSE_GROUP",
+        "energy_class": "Not specified",
+        "heating_type": null,
+        "construction_year": null,
+        "number_of_frontages": null,
+        "surface_land": null,
+        "surface_livable_space": null,
+        "number_floors": null,
+        "building_condition": null,
+        "surroundings_type": null,
+        "furnished": false,
+        "rooms": {
+            "living_room": null,
+            "dining_room": null,
+            "kitchen_type": {
+                "installed": false,
+                "kitchen_surface": null
+            },
+            "bedrooms": {
+                "number": null,
+                "surface": []
+            },
+            "bathrooms": {
+                "number": null
+            },
+            "toilets": {
+                "number": null
+            },
+            "laundry_room": false,
+            "office": {
+                "presence": false,
+                "surface": null
+            },
+            "basement": {
+                "presence": false,
+                "surface": null
+            },
+            "attic": false
+        },
+        "extras": {
+            "open_fire": false
+        },
+        "exterior": {
+            "terrace": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "garden": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "swimming_pool": false
+        },
+        "nb_of_rooms": 6
+    },
+    {
+        "url": "https://www.immoweb.be/en/classified/new-real-estate-project-houses/for-sale/lierde/9570/20002881",
+        "zip_code": "9570",
+        "locality": "LIERDE",
+        "price": "398175",
+        "type": "BUY_REGULAR",
+        "type_of_property": "HOUSE_GROUP",
+        "subtype_of_property": "HOUSE_GROUP",
+        "energy_class": "Not specified",
+        "heating_type": null,
+        "construction_year": null,
+        "number_of_frontages": null,
+        "surface_land": null,
+        "surface_livable_space": null,
+        "number_floors": null,
+        "building_condition": null,
+        "surroundings_type": null,
+        "furnished": false,
+        "rooms": {
+            "living_room": null,
+            "dining_room": null,
+            "kitchen_type": {
+                "installed": false,
+                "kitchen_surface": null
+            },
+            "bedrooms": {
+                "number": null,
+                "surface": []
+            },
+            "bathrooms": {
+                "number": null
+            },
+            "toilets": {
+                "number": null
+            },
+            "laundry_room": false,
+            "office": {
+                "presence": false,
+                "surface": null
+            },
+            "basement": {
+                "presence": false,
+                "surface": null
+            },
+            "attic": false
+        },
+        "extras": {
+            "open_fire": false
+        },
+        "exterior": {
+            "terrace": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "garden": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "swimming_pool": false
+        },
+        "nb_of_rooms": 6
+    },
+    {
+        "url": "https://www.immoweb.be/en/classified/new-real-estate-project-houses/for-sale/zulte-machelen/9870/20001440",
+        "zip_code": "9870",
+        "locality": "ZULTE MACHELEN",
+        "price": "399000",
+        "type": "BUY_REGULAR",
+        "type_of_property": "HOUSE_GROUP",
+        "subtype_of_property": "HOUSE_GROUP",
+        "energy_class": "Not specified",
+        "heating_type": null,
+        "construction_year": null,
+        "number_of_frontages": null,
+        "surface_land": null,
+        "surface_livable_space": null,
+        "number_floors": null,
+        "building_condition": null,
+        "surroundings_type": null,
+        "furnished": false,
+        "rooms": {
+            "living_room": null,
+            "dining_room": null,
+            "kitchen_type": {
+                "installed": false,
+                "kitchen_surface": null
+            },
+            "bedrooms": {
+                "number": null,
+                "surface": []
+            },
+            "bathrooms": {
+                "number": null
+            },
+            "toilets": {
+                "number": null
+            },
+            "laundry_room": false,
+            "office": {
+                "presence": false,
+                "surface": null
+            },
+            "basement": {
+                "presence": false,
+                "surface": null
+            },
+            "attic": false
+        },
+        "extras": {
+            "open_fire": false
+        },
+        "exterior": {
+            "terrace": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "garden": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "swimming_pool": false
+        },
+        "nb_of_rooms": 6
+    },
+    {
+        "url": "https://www.immoweb.be/en/classified/new-real-estate-project-apartments/for-sale/gent/9000/20001267",
+        "zip_code": "9000",
+        "locality": "GENT",
+        "price": "575000",
+        "type": "BUY_REGULAR",
+        "type_of_property": "APARTMENT_GROUP",
+        "subtype_of_property": "APARTMENT_GROUP",
+        "energy_class": "Not specified",
+        "heating_type": null,
+        "construction_year": null,
+        "number_of_frontages": null,
+        "surface_land": null,
+        "surface_livable_space": null,
+        "number_floors": null,
+        "building_condition": null,
+        "surroundings_type": null,
+        "furnished": false,
+        "rooms": {
+            "living_room": null,
+            "dining_room": null,
+            "kitchen_type": {
+                "installed": false,
+                "kitchen_surface": null
+            },
+            "bedrooms": {
+                "number": null,
+                "surface": []
+            },
+            "bathrooms": {
+                "number": null
+            },
+            "toilets": {
+                "number": null
+            },
+            "laundry_room": false,
+            "office": {
+                "presence": false,
+                "surface": null
+            },
+            "basement": {
+                "presence": false,
+                "surface": null
+            },
+            "attic": false
+        },
+        "extras": {
+            "open_fire": false
+        },
+        "exterior": {
+            "terrace": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "garden": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "swimming_pool": false
+        },
+        "nb_of_rooms": 6
+    },
+    {
+        "url": "https://www.immoweb.be/en/classified/new-real-estate-project-apartments/for-sale/uccle/1180/20003196",
+        "zip_code": "1180",
+        "locality": "UCCLE",
+        "price": "595000",
+        "type": "BUY_REGULAR",
+        "type_of_property": "APARTMENT_GROUP",
+        "subtype_of_property": "APARTMENT_GROUP",
+        "energy_class": "Not specified",
+        "heating_type": null,
+        "construction_year": null,
+        "number_of_frontages": null,
+        "surface_land": null,
+        "surface_livable_space": null,
+        "number_floors": null,
+        "building_condition": null,
+        "surroundings_type": null,
+        "furnished": false,
+        "rooms": {
+            "living_room": null,
+            "dining_room": null,
+            "kitchen_type": {
+                "installed": false,
+                "kitchen_surface": null
+            },
+            "bedrooms": {
+                "number": null,
+                "surface": []
+            },
+            "bathrooms": {
+                "number": null
+            },
+            "toilets": {
+                "number": null
+            },
+            "laundry_room": false,
+            "office": {
+                "presence": false,
+                "surface": null
+            },
+            "basement": {
+                "presence": false,
+                "surface": null
+            },
+            "attic": false
+        },
+        "extras": {
+            "open_fire": false
+        },
+        "exterior": {
+            "terrace": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "garden": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "swimming_pool": false
+        },
+        "nb_of_rooms": 6
+    },
+    {
+        "url": "https://www.immoweb.be/en/classified/new-real-estate-project-apartments/for-sale/bruxelles/1000/20000810",
+        "zip_code": "1000",
+        "locality": "BRUXELLES",
+        "price": "625000",
+        "type": "BUY_REGULAR",
+        "type_of_property": "APARTMENT_GROUP",
+        "subtype_of_property": "APARTMENT_GROUP",
+        "energy_class": "Not specified",
+        "heating_type": null,
+        "construction_year": null,
+        "number_of_frontages": null,
+        "surface_land": null,
+        "surface_livable_space": null,
+        "number_floors": null,
+        "building_condition": null,
+        "surroundings_type": null,
+        "furnished": false,
+        "rooms": {
+            "living_room": null,
+            "dining_room": null,
+            "kitchen_type": {
+                "installed": false,
+                "kitchen_surface": null
+            },
+            "bedrooms": {
+                "number": null,
+                "surface": []
+            },
+            "bathrooms": {
+                "number": null
+            },
+            "toilets": {
+                "number": null
+            },
+            "laundry_room": false,
+            "office": {
+                "presence": false,
+                "surface": null
+            },
+            "basement": {
+                "presence": false,
+                "surface": null
+            },
+            "attic": false
+        },
+        "extras": {
+            "open_fire": false
+        },
+        "exterior": {
+            "terrace": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "garden": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "swimming_pool": false
+        },
+        "nb_of_rooms": 6
+    },
+    {
+        "url": "https://www.immoweb.be/en/classified/new-real-estate-project-apartments/for-sale/ixelles/1050/20000796",
+        "zip_code": "1050",
+        "locality": "IXELLES",
+        "price": "625000",
+        "type": "BUY_REGULAR",
+        "type_of_property": "APARTMENT_GROUP",
+        "subtype_of_property": "APARTMENT_GROUP",
+        "energy_class": "Not specified",
+        "heating_type": null,
+        "construction_year": null,
+        "number_of_frontages": null,
+        "surface_land": null,
+        "surface_livable_space": null,
+        "number_floors": null,
+        "building_condition": null,
+        "surroundings_type": null,
+        "furnished": false,
+        "rooms": {
+            "living_room": null,
+            "dining_room": null,
+            "kitchen_type": {
+                "installed": false,
+                "kitchen_surface": null
+            },
+            "bedrooms": {
+                "number": null,
+                "surface": []
+            },
+            "bathrooms": {
+                "number": null
+            },
+            "toilets": {
+                "number": null
+            },
+            "laundry_room": false,
+            "office": {
+                "presence": false,
+                "surface": null
+            },
+            "basement": {
+                "presence": false,
+                "surface": null
+            },
+            "attic": false
+        },
+        "extras": {
+            "open_fire": false
+        },
+        "exterior": {
+            "terrace": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "garden": {
+                "presence": false,
+                "surface": null,
+                "orientation": null
+            },
+            "swimming_pool": false
+        },
+        "nb_of_rooms": 6
     }
 ]
