@@ -1,7 +1,17 @@
 
 Todo:
+<<<<<<< HEAD
+  ☐ Deal with grouped sale -_-
+  ☐ Docstring --"
+  ☐ Comments _^_
+  ☐ Integrate Session() :D
+  ☐ Split the code a bit :D
+  ☐ Clean import u.u 
+  ☐ Reformat :/
+=======
   ☐ Deal with grouped sale -_- NO TIME TOT
 
+>>>>>>> 50afe93d61820e2fb684f13a7560ce4b4e9d2770
   ☐ Unit tests :DD
   ☐ Readme
 
