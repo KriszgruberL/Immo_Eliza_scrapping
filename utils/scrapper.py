@@ -233,4 +233,6 @@ class Scrapper:
         with jsonlines.open("houses.json", mode="w") as file:
             file.write(self.house_data)
 
+    
+
 
