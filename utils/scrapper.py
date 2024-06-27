@@ -258,8 +258,8 @@ class Scrapper:
 
                     house_data["nb_of_rooms"] = self.count_rooms(house_data["rooms"])
 
-                else:
-                    print("Skipping non-standard row")
+                # else:
+                #     print("Skipping non-standard row")
         self.save()
 
         return house_data
@@ -290,7 +290,7 @@ class Scrapper:
             return count
 
     def save(self):
-        with open("houses.json", "w") as file:
+        with open("data/houses.json", "w") as file:
             json.dump(self.house_data, file )
         # with jsonlines.open("houses.json", mode="w") as file:
         #     file.write(self.house_data)

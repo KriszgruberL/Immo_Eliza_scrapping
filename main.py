@@ -1,5 +1,6 @@
 import os
 import pandas as pd
+import json
 
 from utils.scrapper import Scrapper
 
