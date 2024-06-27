@@ -70,11 +70,11 @@ class Scrapper:
         Returns:
             None
         """
+        session = Session()
         while params["page"] <= 333:  # Limiting to 2 pages for testing
             response = requests.get(link, headers=self.headers, params=params)
             response.raise_for_status()
             soup = BeautifulSoup(response.content, "html.parser")
-            session = Session()
 
             # Extracting information from each house listing
             for house in soup.select("div.card--result__body"):
@@ -98,10 +98,15 @@ class Scrapper:
                 house_data.update(house_details)
 
                 self.house_data.append(house_data)
-                params["page"] += 1
 
+            print(f"Processed page {params['page']}")
+            print("******************")
+            print("******************")
+            print("******************")
+            print("******************")
+            params["page"] += 1
             time.sleep(0.2) # Adding a delay to be polite to the server
-        params['page'] = 1 # Reset page number after processing
+
 
 
     def get_house_details(self, url : str , session : Session):
