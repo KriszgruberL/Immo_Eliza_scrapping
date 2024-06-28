@@ -24,8 +24,8 @@ This project is a real estate web scraper that collects data on properties for s
 
 1. **Clone the repository**:
     ```sh
-    git clone https://github.com/yourusername/real-estate-scraper.git
-    cd real-estate-scraper
+    git clone https://github.com/your_username/Immo_Eliza.git
+    cd Immo_Eliza
     ```
 
 2. **Create a virtual environment**:
@@ -47,7 +47,7 @@ This project is a real estate web scraper that collects data on properties for s
     python main.py
     ```
 
-    This will start the scraping process, save the data into `houses.jsonl`, and convert the data to `houses.csv`.
+    This will start the scraping process, save the data into `houses.json`, and convert the data to `houses.csv`.
 
 2. **Data files**:
     - `houses.json`: Contains the full dataset in JSON format.
@@ -65,7 +65,7 @@ Defines the `Scrapper` class which handles:
 - Initializing HTTP session parameters and headers.
 - Sending requests to the target website.
 - Parsing HTML content using BeautifulSoup.
-- Extracting property details and saving them incrementally in `houses.jsonl`.
+- Extracting property details and saving them every 10 pages in `houses.json`.
 
 ### property.py
 
