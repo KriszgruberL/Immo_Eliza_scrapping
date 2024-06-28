@@ -8,6 +8,11 @@
 
 This project is a real estate web scraper that collects data on properties for sale and rent from Immoweb. It extracts details about each property, including price, location, type, and various features, and saves this data into JSON and CSV formats for further analysis.
 
+## Collaborator
+I'd like to thank the Antoine Servais for his contribution to this project:
+
+- [antoineservais1307](https://github.com/antoineservais1307)
+
 ## Project Structure
 
 - **main.py**: The entry point of the application. It initializes the scraper, saves the scraped data, and then converts the JSON data to a CSV file.
