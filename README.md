@@ -24,7 +24,7 @@ This project is a real estate web scraper that collects data on properties for s
 
 1. **Clone the repository**:
     ```sh
-    git clone https://github.com/your_username/Immo_Eliza.git
+    git clone https://github.com/KriszgruberL/Immo_Eliza.git
     cd Immo_Eliza
     ```
 
