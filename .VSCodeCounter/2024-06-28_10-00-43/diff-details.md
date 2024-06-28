@@ -1,0 +1,15 @@
+# Diff Details
+
+Date : 2024-06-28 10:00:43
+
+Directory c:\\Users\\lkris\\OneDrive\\Bureau\\BeCode\\becode_projects\\Immo_Eliza\\utils
+
+Total : 0 files,  0 codes, 0 comments, 0 blanks, all 0 lines
+
+[Summary](results.md) / [Details](details.md) / [Diff Summary](diff.md) / Diff Details
+
+## Files
+| filename | language | code | comment | blank | total |
+| :--- | :--- | ---: | ---: | ---: | ---: |
+
+[Summary](results.md) / [Details](details.md) / [Diff Summary](diff.md) / Diff Details
