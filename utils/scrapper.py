@@ -1,3 +1,4 @@
+from concurrent.futures import ThreadPoolExecutor
 from typing import Dict
 import jsonlines
 import requests
@@ -71,45 +72,43 @@ class Scrapper:
             None
         """
         session = Session()
-        while params["page"] <= 333:  # Limiting to 2 pages for testing
-            response = requests.get(link, headers=self.headers, params=params)
-            response.raise_for_status()
-            soup = BeautifulSoup(response.content, "html.parser")
+        with ThreadPoolExecutor() as pool : 
+            while params["page"] <= 333:  # Limiting to 2 pages for testing
+                response = requests.get(link, headers=self.headers, params=params)
+                response.raise_for_status()
+                soup = BeautifulSoup(response.content, "html.parser")
+                house_urls = []
 
-            # Extracting information from each house listing
-            for house in soup.select("div.card--result__body"):
-                text = (house.select_one("p.card__information--locality").get_text().strip())
-                zip_code, locality = text.split(" ", 1) if " " in text else (text, "")
+                # Extracting information from each house listing
+                for house in soup.select("div.card--result__body"):
+                    text = (house.select_one("p.card__information--locality").get_text().strip())
+                    zip_code, locality = text.split(" ", 1) if " " in text else (text, "")
 
-                price_match = re.search(r"\((\d+)\s*€\)", house.select_one("h2 a").get("aria-label", ""))
-                price = price_match.group(1) if price_match else None
+                    price_match = re.search(r"\((\d+)\s*€\)", house.select_one("h2 a").get("aria-label", ""))
+                    price = price_match.group(1) if price_match else None
 
-                house_url = urljoin(self.start_url, house.select_one("h2 a").get("href", ""))
-                
-                house_data = {
-                    "url": house_url,
-                    "zip_code": zip_code,
-                    "locality": locality.upper(),
-                    "price": price,
-                }
+                    house_url = urljoin(self.start_url, house.select_one("h2 a").get("href", ""))
+                    
+                    house_data = {
+                        "url": house_url,
+                        "zip_code": zip_code,
+                        "locality": locality.upper(),
+                        "price": price,
+                    }
+                    house_urls.append((house_url, house_data))
 
-                # Get detailed information about the house
-                house_details = self.get_house_details(house_url, session)
-                house_data.update(house_details)
-
-                self.house_data.append(house_data)
-
-            print(f"Processed page {params['page']}")
-            print("******************")
-            print("******************")
-            print("******************")
-            print("******************")
-            params["page"] += 1
-            time.sleep(0.2) # Adding a delay to be polite to the server
+                # Use ThreadPoolExecutor to fetch house details concurrently
+                futures = [pool.submit(self.get_house_details, url, house_data, session) for url, house_data in house_urls]
+                for future in futures:
+                    future.result()
+                    
+                print(f"Processed page {params['page']}")
+                params["page"] += 1
+                time.sleep(0.2)
 
 
 
-    def get_house_details(self, url : str , session : Session):
+    def get_house_details(self, url : str ,house_data : Dict, session : Session):
         """
         Fetches detailed information for a house listing from the provided URL.
 
@@ -125,149 +124,155 @@ class Scrapper:
             dict: A dictionary containing detailed information about the house listing.
         """
         # Just a little print to see the progress
-        print(f"Processing : {url}")
-        response = session.get(url, headers=self.headers)
-        response.raise_for_status()
-        soup = BeautifulSoup(response.content, "html.parser")
+        try : 
+            print(f"Processing : {url}")
+            response = session.get(url, headers=self.headers)
+            response.raise_for_status()
+            soup = BeautifulSoup(response.content, "html.parser")
 
-        # Fetching some data in the json object hidding in the page
-        script_tag = soup.find("script", string=re.compile("window.classified")).string
-        # Use a regular expression to extract the JSON data within the JavaScript assignment
-        # The regex looks for "window.classified =" followed by the JSON data enclosed in curly braces
-        json_data = re.search(r"window.classified\s*=\s*({.*});", script_tag).group(1)
-        data = json.loads(json_data)
+            # Fetching some data in the json object hidding in the page
+            script_tag = soup.find("script", string=re.compile("window.classified")).string
+            # Use a regular expression to extract the JSON data within the JavaScript assignment
+            # The regex looks for "window.classified =" followed by the JSON data enclosed in curly braces
+            json_data = re.search(r"window.classified\s*=\s*({.*});", script_tag).group(1)
+            data = json.loads(json_data)
 
-        # Structure of house data, not necessary but improve clarity
-        house_data = {
-            "type": data["transaction"]["subtype"],
-            "type_of_property": data["property"]["type"],
-            "subtype_of_property": data["property"]["subtype"],
-            "energy_class": None,
-            "heating_type": None,
-            "construction_year": None,
-            "number_of_frontages": None,
-            "surface_land": None,
-            "surface_livable_space": data["property"]["netHabitableSurface"],
-            "number_floors": None,
-            "building_condition": None,
-            "surroundings_type": None,
-            "furnished": False,
-            "rooms": {
-                "living_room": None,
-                "dining_room": None,
-                "kitchen_type": {"installed": False, "kitchen_surface": None},
-                "bedrooms": {"number": None, "surface": []},
-                "bathrooms": {"number": None},
-                "toilets": {"number": None},
-                "laundry_room": False,
-                "office": {"presence": False, "surface": None},
-                "basement": {"presence": False, "surface": None},
-                "attic": False,
-            },
-            "extras": {"open_fire": data["property"]["fireplaceExists"]},
-            "exterior": {
-                "terrace": {"presence": False, "surface": None, "orientation": None},
-                "garden": {"presence": False, "surface": None, "orientation": None},
-                "swimming_pool": False,
-            }
-        }
+            # Structure of house data, not necessary but improve clarity
+            house_data.update({
+                "type_transaction" : data["transaction"]["type"],
+                "subtype_transaction": data["transaction"]["subtype"],
+                "type_of_property": data["property"]["type"],
+                "subtype_of_property": data["property"]["subtype"],
+                "energy_class": None,
+                "heating_type": None,
+                "construction_year": None,
+                "number_of_frontages": None,
+                "surface_land": None,
+                "surface_livable_space": data["property"]["netHabitableSurface"],
+                "number_floors": None,
+                "building_condition": None,
+                "surroundings_type": None,
+                "furnished": False,
+                "rooms": {
+                    "living_room": None,
+                    "dining_room": None,
+                    "kitchen_type": {"installed": False, "kitchen_surface": None},
+                    "bedrooms": {"number": None, "surface": []},
+                    "bathrooms": {"number": None},
+                    "toilets": {"number": None},
+                    "laundry_room": False,
+                    "office": {"presence": False, "surface": None},
+                    "basement": {"presence": False, "surface": None},
+                    "attic": False,
+                },
+                "extras": {"open_fire": data["property"]["fireplaceExists"]},
+                "exterior": {
+                    "terrace": {"presence": False, "surface": None, "orientation": None},
+                    "garden": {"presence": False, "surface": None, "orientation": None},
+                    "swimming_pool": False,
+                }
+            })
 
-        for table in soup.find_all("table", class_="classified-table"):
-            for row in table.find_all("tr"):
+            for table in soup.find_all("table", class_="classified-table"):
+                for row in table.find_all("tr"):
 
-                header = row.select_one("th")
-                value = row.select_one("td.classified-table__data")
+                    header = row.select_one("th")
+                    value = row.select_one("td.classified-table__data")
 
-                if header and value:
-                    # Extract the text content, stripping any leading and trailing whitespace
-                    header_txt = header.contents[0].strip()
-                    value_txt = value.contents[0].strip()
-
-                    # Scrapping general infos
                     if header and value:
                         # Extract the text content, stripping any leading and trailing whitespace
                         header_txt = header.contents[0].strip()
                         value_txt = value.contents[0].strip()
-                        
+
                         # Scrapping general infos
-                        if "Energy class" in header_txt:
-                            house_data["energy_class"] = re.sub(r"^\s+|\s+$", "", value_txt)
-                        elif "Heating type" in header_txt:
-                            house_data["heating_type"] = re.sub(r"^\s+|\s+$", "", value_txt)
-                        elif "Construction year" in header_txt:
-                            house_data["construction_year"] = re.sub(r"^\s+|\s+$", "", value_txt)
-                        elif "Number of frontages" in header_txt:
-                            house_data["number_of_frontages"] = re.sub(r"^\s+|\s+$", "", value_txt)
-                        elif "Living area" in header_txt:
-                            house_data["surface_livable_space"] = re.sub(r"^\s+|\s+$", "", value_txt)
-                        elif "Number of floors" in header_txt:
-                            house_data["number_floors"] = re.sub(r"^\s+|\s+$", "", value_txt)
-                        elif "Building condition" in header_txt:
-                            house_data["building_condition"] = re.sub(r"^\s+|\s+$", "", value_txt)
-                        elif "Surroundings type" in header_txt:
-                            house_data["surroundings_type"] = re.sub(r"^\s+|\s+$", "", value_txt)
+                        if header and value:
+                            # Extract the text content, stripping any leading and trailing whitespace
+                            header_txt = header.contents[0].strip()
+                            value_txt = value.contents[0].strip()
+                            
+                            # Scrapping general infos
+                            if "Energy class" in header_txt:
+                                house_data["energy_class"] = re.sub(r"^\s+|\s+$", "", value_txt)
+                            elif "Heating type" in header_txt:
+                                house_data["heating_type"] = re.sub(r"^\s+|\s+$", "", value_txt)
+                            elif "Construction year" in header_txt:
+                                house_data["construction_year"] = re.sub(r"^\s+|\s+$", "", value_txt)
+                            elif "Number of frontages" in header_txt:
+                                house_data["number_of_frontages"] = re.sub(r"^\s+|\s+$", "", value_txt)
+                            elif "Living area" in header_txt:
+                                house_data["surface_livable_space"] = re.sub(r"^\s+|\s+$", "", value_txt)
+                            elif "Number of floors" in header_txt:
+                                house_data["number_floors"] = re.sub(r"^\s+|\s+$", "", value_txt)
+                            elif "Building condition" in header_txt:
+                                house_data["building_condition"] = re.sub(r"^\s+|\s+$", "", value_txt)
+                            elif "Surroundings type" in header_txt:
+                                house_data["surroundings_type"] = re.sub(r"^\s+|\s+$", "", value_txt)
 
-                        # Scraping for the rooms
-                        elif "Furnished" in header_txt:
-                            house_data["furnished"] = True if re.sub(r"^\s+|\s+$", "", value_txt) == "Yes" else False 
-                        elif "Living room surface" in header_txt:
-                            house_data["rooms"]["living_room"] = re.sub(r"^\s+|\s+$", "", value_txt)
-                        elif "Dining room" in header_txt:
-                            house_data["rooms"]["dining_room"] = True if re.sub(r"^\s+|\s+$", "", value_txt) == "Yes" else False
-                        elif "Kitchen type" in header_txt:
-                            house_data["rooms"]["kitchen_type"]["installed"] = re.sub(r"^\s+|\s+$", "", value_txt)
-                        elif "Kitchen surface" in header_txt:
-                            house_data["rooms"]["kitchen_type"]["kitchen_surface"] = re.sub(r"^\s+|\s+$", "", value_txt)
-                        elif "Bedrooms" in header_txt:
-                            house_data["rooms"]["bedrooms"]["number"] = re.sub(r"^\s+|\s+$", "", value_txt)
-                        elif re.match(r"Bedroom \d+ surface", header_txt):
-                            bedroom_surface = re.sub(r"^\s+|\s+$", "", value_txt)
-                            house_data["rooms"]["bedrooms"]["surface"].append(bedroom_surface)
-                        elif "Bathrooms" in header_txt:
-                            house_data["rooms"]["bathrooms"]["number"] = re.sub(r"^\s+|\s+$", "", value_txt)
-                        elif "Toilets" in header_txt:
-                            house_data["rooms"]["toilets"]["number"] = re.sub(r"^\s+|\s+$", "", value_txt)
-                        elif "Laundry room" in header_txt:
-                            house_data["rooms"]["laundry_room"] = True if re.sub(r"^\s+|\s+$", "", value_txt) == "Yes" else False 
-                        elif "Office" in header_txt and "surface" not in header_txt:
-                            house_data["rooms"]["office"]["presence"] = True if re.sub(r"^\s+|\s+$", "", value_txt) == "Yes" else False 
-                        elif "Office surface" in header_txt:
-                            house_data["rooms"]["office"]["surface"] = re.sub(r"^\s+|\s+$", "", value_txt)
-                        elif "Basement surface" in header_txt:
-                            house_data["rooms"]["basement"]["presence"] = True
-                            house_data["rooms"]["basement"]["surface"] = re.sub(r"^\s+|\s+$", "", value_txt)
-                        elif "Basement" in header_txt:
-                            house_data["rooms"]["basement"]["presence"] = True
-                        elif "Attic" in header_txt:
-                            house_data["rooms"]["attic"] = True if re.sub(r"^\s+|\s+$", "", value_txt) == "Yes" else False 
+                            # Scraping for the rooms
+                            elif "Furnished" in header_txt:
+                                house_data["furnished"] = True if re.sub(r"^\s+|\s+$", "", value_txt) == "Yes" else False 
+                            elif "Living room surface" in header_txt:
+                                house_data["rooms"]["living_room"] = re.sub(r"^\s+|\s+$", "", value_txt)
+                            elif "Dining room" in header_txt:
+                                house_data["rooms"]["dining_room"] = True if re.sub(r"^\s+|\s+$", "", value_txt) == "Yes" else False
+                            elif "Kitchen type" in header_txt:
+                                house_data["rooms"]["kitchen_type"]["installed"] = re.sub(r"^\s+|\s+$", "", value_txt)
+                            elif "Kitchen surface" in header_txt:
+                                house_data["rooms"]["kitchen_type"]["kitchen_surface"] = re.sub(r"^\s+|\s+$", "", value_txt)
+                            elif "Bedrooms" in header_txt:
+                                house_data["rooms"]["bedrooms"]["number"] = re.sub(r"^\s+|\s+$", "", value_txt)
+                            elif re.match(r"Bedroom \d+ surface", header_txt):
+                                bedroom_surface = re.sub(r"^\s+|\s+$", "", value_txt)
+                                house_data["rooms"]["bedrooms"]["surface"].append(bedroom_surface)
+                            elif "Bathrooms" in header_txt:
+                                house_data["rooms"]["bathrooms"]["number"] = re.sub(r"^\s+|\s+$", "", value_txt)
+                            elif "Toilets" in header_txt:
+                                house_data["rooms"]["toilets"]["number"] = re.sub(r"^\s+|\s+$", "", value_txt)
+                            elif "Laundry room" in header_txt:
+                                house_data["rooms"]["laundry_room"] = True if re.sub(r"^\s+|\s+$", "", value_txt) == "Yes" else False 
+                            elif "Office" in header_txt and "surface" not in header_txt:
+                                house_data["rooms"]["office"]["presence"] = True if re.sub(r"^\s+|\s+$", "", value_txt) == "Yes" else False 
+                            elif "Office surface" in header_txt:
+                                house_data["rooms"]["office"]["surface"] = re.sub(r"^\s+|\s+$", "", value_txt)
+                            elif "Basement surface" in header_txt:
+                                house_data["rooms"]["basement"]["presence"] = True
+                                house_data["rooms"]["basement"]["surface"] = re.sub(r"^\s+|\s+$", "", value_txt)
+                            elif "Basement" in header_txt:
+                                house_data["rooms"]["basement"]["presence"] = True
+                            elif "Attic" in header_txt:
+                                house_data["rooms"]["attic"] = True if re.sub(r"^\s+|\s+$", "", value_txt) == "Yes" else False 
 
-                        # Exterior datas
-                        elif "Surface of the plot" in header_txt:
-                            house_data["surface_land"] = re.sub(r"^\s+|\s+$", "", value_txt)
-                        elif "Garden surface" in header_txt:
-                            house_data["exterior"]["garden"]["presence"] = True
-                            house_data["exterior"]["garden"]["surface"] = re.sub(r"^\s+|\s+$", "", value_txt)
-                        elif "Garden orientation" in header_txt:
-                            house_data["exterior"]["garden"]["orientation"] = re.sub(r"^\s+|\s+$", "", value_txt)
-                        elif "Garden" in header_txt:
-                            house_data["exterior"]["garden"]["presence"] = True
-                        elif "Terrace surface" in header_txt:
-                            house_data["exterior"]["terrace"]["presence"] = True
-                            house_data["exterior"]["terrace"]["surface"] = re.sub(r"^\s+|\s+$", "", value_txt)
-                        elif "Terrace" in header_txt:
-                            house_data["exterior"]["terrace"]["presence"] = True if re.sub(r"^\s+|\s+$", "", value_txt) == "Yes" else False 
-                        elif "Terrace orientation" in header_txt:
-                            house_data["exterior"]["terrace"]["orientation"] = re.sub(r"^\s+|\s+$", "", value_txt)
-                        elif "Swimming pool" in header_txt:
-                            house_data["exterior"]["swimming_pool"] = re.sub(r"^\s+|\s+$", "", value_txt)
+                            # Exterior datas
+                            elif "Surface of the plot" in header_txt:
+                                house_data["surface_land"] = re.sub(r"^\s+|\s+$", "", value_txt)
+                            elif "Garden surface" in header_txt:
+                                house_data["exterior"]["garden"]["presence"] = True
+                                house_data["exterior"]["garden"]["surface"] = re.sub(r"^\s+|\s+$", "", value_txt)
+                            elif "Garden orientation" in header_txt:
+                                house_data["exterior"]["garden"]["orientation"] = re.sub(r"^\s+|\s+$", "", value_txt)
+                            elif "Garden" in header_txt:
+                                house_data["exterior"]["garden"]["presence"] = True
+                            elif "Terrace surface" in header_txt:
+                                house_data["exterior"]["terrace"]["presence"] = True
+                                house_data["exterior"]["terrace"]["surface"] = re.sub(r"^\s+|\s+$", "", value_txt)
+                            elif "Terrace" in header_txt:
+                                house_data["exterior"]["terrace"]["presence"] = True if re.sub(r"^\s+|\s+$", "", value_txt) == "Yes" else False 
+                            elif "Terrace orientation" in header_txt:
+                                house_data["exterior"]["terrace"]["orientation"] = re.sub(r"^\s+|\s+$", "", value_txt)
+                            elif "Swimming pool" in header_txt:
+                                house_data["exterior"]["swimming_pool"] = re.sub(r"^\s+|\s+$", "", value_txt)
 
-                    house_data["nb_of_rooms"] = self.count_rooms(house_data["rooms"])
+                        house_data["nb_of_rooms"] = self.count_rooms(house_data["rooms"])
 
-                # else:
-                #     print("Skipping non-standard row")
-        self.save()
+                    # else:
+                    #     print("Skipping non-standard row")
+            self.house_data.append(house_data)
+            self.save()
 
-        return house_data
+            return house_data
+        except requests.exceptions.HTTPError as e:
+            print(f"+--------------{url} cannot be found--------------+") 
+            
 
 
     def count_rooms(self, rooms):
