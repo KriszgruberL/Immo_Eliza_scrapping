@@ -8,7 +8,7 @@
     <img alt="Made with Frogs" src="./assets/made-with-🐸.svg" style="border-radius:0.5rem">
     <a href="https://github.com/antoineservais1307"><img alt="In collaboration with antoineservais1307" src="./assets/in-collaboration-with-antoineservais1307.svg" style="border-radius:0.5rem; margin-left : 0.5rem"></a>
     <br>
-    <br>
+    <br><br>
     <a><img src="./assets/logo-modified.png" width="350"  /></a>
     <h2 align="center">Using:
     <br>
@@ -29,6 +29,7 @@ Thank you Antoine Servais for your contribution to this project:
 - [antoineservais1307](https://github.com/antoineservais1307)
 
 ## 🚧 Project Structure
+
 <div style="display: flex; align-items :center">
 
 <div style="flex: 0.5; padding-right: 1%;">
@@ -64,7 +65,7 @@ Thank you Antoine Servais for your contribution to this project:
 
 - **main.py**: The entry point of the application. It initializes the scraper, saves the scraped data, and then converts the JSON data to a CSV file.
 - **utils/**
-  - **scrapper.py**: Contains the `Scrapper` class, which is responsible for sending requests to the website, parsing HTML content, and extracting property details.
+  - **scrapper.py**: Contains the `Scrapper` class, which is responsible for sending requests to the website, parsing HTML content, and extracting property details. It utilizes `ThreadPoolExecutor` for concurrent processing of multiple pages and property details, significantly speeding up the scraping process.
   - **property.py**: Defines the `Property` class, which models the details of a real estate property and provides methods to update and convert these details.
   - **classifier.py**: Contains the `Classifier` class, which handles converting JSON data to a CSV format for easier analysis.
 - **data/**
@@ -124,6 +125,7 @@ This file initializes the `Scrapper` and starts the scraping process. It then sa
     - Sending requests to the target website.
     - Parsing HTML content using BeautifulSoup.
     - Extracting property details and saving them every 10 pages in `houses.json`.
+    - Utilizing `ThreadPoolExecutor` for concurrent processing of multiple pages and property details.
 
 ### property.py
 
