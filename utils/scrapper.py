@@ -63,8 +63,8 @@ class Scrapper:
                 print(f"Processed page {params['page']}")
                 params["page"] += 1
                 
-                # if params["page"] % 10 == 0:
-                #     self.save()
+                if params["page"] % 10 == 0:
+                    self.save()
                 
             except requests.exceptions.HTTPError as e:
                 print(f"Failed to fetch page {params['page']} from {link}: {e}")
@@ -179,3 +179,6 @@ class Scrapper:
         except requests.exceptions.HTTPError as e:
             print(f"+--------------{house.url} cannot be found--------------+") 
 
+    def save(self):
+        with open("data/houses.json", "w") as file:
+            json.dump(self.house_data, file)
