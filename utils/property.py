@@ -1,9 +1,38 @@
 from typing import Dict
 
-
 class Property:
+    """
+    A class to represent a Property and manage its details.
+
+    Attributes
+    ----------
+    url : str : The URL associated with the property.
+    details : dict : A dictionary to store various details about the property, including address, price, 
+        type, energy class, rooms, and exterior features.
+
+    Methods
+    -------
+    update_details(data: Dict):
+        Updates the property details with the given data.
+        
+    count_rooms():
+        Counts the total number of rooms in the property and updates the details dictionary.
+        
+    to_dict():
+        Returns the property details as a dictionary.
+    """
     def __init__(self, url: str):
+        """
+        Constructs all the necessary attributes for the Property object.
+
+        Parameters
+        ----------
+        url : str : The URL associated with the property.
+        """
+        
         self.url = url
+        
+        # Initialize the details dictionary with default values
         self.details = {
             "url": url,
             "zip_code": None,
