@@ -1,19 +1,66 @@
 # Immo_Eliza
 
+
+
+
 <p align="center">
-  <img src="./assets/logo.webp" width="350"  />
+    <br>
+    <img alt="Made with Frogs" src="./assets/made-with-🐸.svg" style="border-radius:0.5rem">
+    <a href="https://github.com/antoineservais1307"><img alt="In collaboration with antoineservais1307" src="./assets/in-collaboration-with-antoineservais1307.svg" style="border-radius:0.5rem; margin-left : 0.5rem"></a>
+    <br>
+    <br>
+    <a><img src="./assets/logo-modified.png" width="350"  /></a>
+    <h2 align="center">Using:
+    <br>
+    <br>
+    <a href="https://www.python.org/downloads/release/python-3120/"><img alt="Python 3.12" src="https://img.shields.io/badge/Python%203.12-python?style=for-the-badge&logo=python&logoColor=F8E71C&labelColor=427EC4&color=2680D1" style="border-radius:0.5rem"></a>
+    <a href="https://www.crummy.com/software/BeautifulSoup/"><img alt="Beautiful soup" src="https://img.shields.io/badge/Beautiful_Soup-Beautiful_Soup?style=for-the-badge&color=2FB3B6" style="border-radius:0.5rem"></a>
+    <a href="https://pandas.pydata.org/docs/"><img alt="Pandas" src="https://img.shields.io/badge/Pandas-Pandas?style=for-the-badge&logo=pandas&color=61B3DD" style="border-radius:0.5rem"></a>
+    <br>
 </p>
 
-## Overview
+## 📚 Overview
 
 This project is a real estate web scraper that collects data on properties for sale and rent from Immoweb. It extracts details about each property, including price, location, type, and various features, and saves this data into JSON and CSV formats for further analysis.
 
-## Collaborator
+## 🕺 Collaborator
 Thank you Antoine Servais for your contribution to this project:
 
 - [antoineservais1307](https://github.com/antoineservais1307)
 
-## Project Structure
+## 🚧 Project Structure
+<div style="display: flex; align-items :center">
+
+<div style="flex: 0.5; padding-right: 1%;">
+
+    .
+    ├── .venv/
+    ├── .vscode/
+    │   ├── settings.json
+    ├── assets/
+    │   └── logo.webp
+    ├── data/
+    │   ├── __init__.py
+    │   ├── Data_house.xlsx
+    │   ├── houses.csv
+    │   └── houses.json
+    ├── utils/
+    │   ├── __pycache__/
+    │   │   ├── ...
+    │   ├── __init__.py
+    │   ├── classifier.py 
+    │   ├── property.py 
+    │   └── scrapper.py
+    ├── .gitignore
+    ├── Instructions.md
+    ├── main.py
+    ├── README.md
+    └── requirements.txt
+ 
+</div>
+
+<div style="flex: 0.75;">
+<br>
 
 - **main.py**: The entry point of the application. It initializes the scraper, saves the scraped data, and then converts the JSON data to a CSV file.
 - **utils/**
@@ -25,7 +72,12 @@ Thank you Antoine Servais for your contribution to this project:
   - **houses.csv**: A CSV file containing the property data for easy analysis.
 - **requirements.txt**: Contains the required packages and their versions for the project.
 
-## Setup
+</div>
+
+</div>
+
+
+## ⚒️ Setup
 
 1. **Clone the repository**:
     ```sh
@@ -45,20 +97,21 @@ Thank you Antoine Servais for your contribution to this project:
     pip install -r requirements.txt
     ```
 
-## Usage
+## ⚙️ Usage
 
 1. **Run the scraper**:
     ```sh
     python main.py
     ```
 
-    This will start the scraping process, save the data into `houses.json`, and convert the data to `houses.csv`.
+    This will start the scraping process, save the data into `houses.json`, and convert the data to `houses.csv`.<br>
+    <b>⚠️ Running time is about 20-25 minutes </b>
 
 2. **Data files**:
     - `houses.json`: Contains the full dataset in JSON format.
     - `houses.csv`: Contains the dataset in CSV format for easy analysis.
 
-## Details
+## 🔎 Details
 
 ### main.py
 
@@ -66,30 +119,29 @@ This file initializes the `Scrapper` and starts the scraping process. It then sa
 
 ### scrapper.py
 
-Defines the `Scrapper` class which handles:
-- Initializing HTTP session parameters and headers.
-- Sending requests to the target website.
-- Parsing HTML content using BeautifulSoup.
-- Extracting property details and saving them every 10 pages in `houses.json`.
+    Defines the `Scrapper` class which handles:
+    - Initializing HTTP session parameters and headers.
+    - Sending requests to the target website.
+    - Parsing HTML content using BeautifulSoup.
+    - Extracting property details and saving them every 10 pages in `houses.json`.
 
 ### property.py
 
-Defines the `Property` class which models the details of each property:
-- Contains methods to update property details.
-- Provides a method to count the number of rooms.
-- Converts the property details to a dictionary format.
+    Defines the `Property` class which models the details of each property:
+    - Contains methods to update property details.
+    - Provides a method to count the number of rooms.
+    - Converts the property details to a dictionary format.
 
 ### classifier.py
 
-Defines the `Classifier` class which handles:
-- Reading the JSON data from `houses.json`.
-- Normalizing the data into a pandas DataFrame.
-- Saving the normalized data as a CSV file.
+    Defines the `Classifier` class which handles:
+    - Reading the JSON data from `houses.json`.
+    - Normalizing the data into a pandas DataFrame.
+    - Saving the normalized data as a CSV file.
 
-## Libraries documentation
+## 📃 Libraries documentation
 
 - [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/)
 - [Requests](https://docs.python-requests.org/en/latest/)
-- [jsonlines](https://jsonlines.readthedocs.io/en/latest/)
 - [Pandas](https://pandas.pydata.org/)
 
