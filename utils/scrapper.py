@@ -74,9 +74,9 @@ class Scrapper:
         making requests to both the sale and rent URLs.
         """
         with ThreadPoolExecutor(max_workers=20) as pool: # Initialize a thread pool with 20 workers
-            session = Session() # Create a session object for making HTTP requests
-            self.get_url(pool, session, f"{self.start_url}{self.rent}", self.params_rent)
-            self.get_url(pool, session, f"{self.start_url}{self.sale}", self.params_sale)
+            with Session() as session: #Create a session object for making HTTP requests
+                self.get_url(pool, session, f"{self.start_url}{self.rent}", self.params_rent)
+                self.get_url(pool, session, f"{self.start_url}{self.sale}", self.params_sale)
                          
     def get_url(self, pool: ThreadPoolExecutor, session: Session, link: str, params: Dict[str, str | int]) -> None:
         """
@@ -91,7 +91,7 @@ class Scrapper:
         """
         while params["page"] <= 333: 
             try:
-                response = requests.get(link, headers=self.headers, params=params)
+                response = session.get(link, headers=self.headers, params=params)
                 response.raise_for_status()
                 soup = BeautifulSoup(response.content, "html.parser")
                 house_urls = []
