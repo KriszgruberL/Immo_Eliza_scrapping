@@ -173,8 +173,8 @@ class Scrapper:
             house.count_rooms()
             self.house_data.append(house.to_dict())
             
-            with jsonlines.open("data/houses.jsonl", mode="a") as writer:
-                writer.write(house.to_dict())
+            # with jsonlines.open("data/houses.jsonl", mode="a") as writer:
+            #     writer.write(house.to_dict())
 
         except requests.exceptions.HTTPError as e:
             print(f"+--------------{house.url} cannot be found--------------+") 
