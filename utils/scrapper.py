@@ -36,7 +36,7 @@ class Scrapper:
         self.params_rent = {
             "countries": "BE",
             "priceType": "MONTHLY_RENTAL_PRICE",
-            "page": 145,
+            "page": 1,
             "orderBy": "relevance",
         }
         
