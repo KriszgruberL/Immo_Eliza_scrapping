@@ -36,7 +36,7 @@ class Scrapper:
         self.params_rent = {
             "countries": "BE",
             "priceType": "MONTHLY_RENTAL_PRICE",
-            "page": 1,
+            "page": 145,
             "orderBy": "relevance",
         }
         
@@ -81,19 +81,11 @@ class Scrapper:
 
                 # Extracting information from each house listing
                 for house in soup.select("div.card--result__body"):
-                    text = (house.select_one("p.card__information--locality").get_text().strip())
-                    zip_code, locality = text.split(" ", 1) if " " in text else (text, "")
-
-                    price_match = re.search(r"\((\d+)\s*€\)", house.select_one("h2 a").get("aria-label", ""))
-                    price = price_match.group(1) if price_match else None
-
                     house_url = urljoin(self.start_url, house.select_one("h2 a").get("href", ""))
                     
                     house_data = {
                         "url": house_url,
-                        "zip_code": zip_code,
-                        "locality": locality.upper(),
-                        "price": price,
+
                     }
                     house_urls.append((house_url, house_data))
 
@@ -139,6 +131,9 @@ class Scrapper:
 
             # Structure of house data, not necessary but improve clarity
             house_data.update({
+                "zip_code": data["property"]["location"]["postalCode"],
+                "locality": data["property"]["location"]["locality"],
+                "price": data["price"]["mainValue"],
                 "type_transaction" : data["transaction"]["type"],
                 "subtype_transaction": data["transaction"]["subtype"],
                 "type_of_property": data["property"]["type"],

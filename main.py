@@ -7,7 +7,7 @@ from utils.scrapper import Scrapper
 
 
 def main() :
-    os.system("cls")
+    # os.system("cls")
     s = Scrapper()
     s.start_scrapping()
     with open('data/houses.json', 'r') as file:  #just a little script to convert the "houses.json" to a .csv file easier to read
