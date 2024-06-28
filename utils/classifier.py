@@ -21,5 +21,9 @@ class Classsifier:
         with open('data/houses.json', 'r') as file:  
             data = json.loads(file.read())
             df = pd.json_normalize(data, sep='_')
+            
+            # Replace NaN values (resulting from JSON null values) with 'NULL'
+            df = df.where(pd.notnull(df), 'NULL')
+            
             df.to_csv("data/houses.csv",index=False)
         
