@@ -52,11 +52,13 @@ class Scrapper:
         1. To scrape rental properties using the URL for rentals and rental-specific parameters.
         2. To scrape sale properties using the URL for sales and sale-specific parameters.
         """
-        self.get_url(f"{self.start_url}{self.rent}", self.params_rent)
-        self.get_url(f"{self.start_url}{self.sale}", self.params_sale)
+        with ThreadPoolExecutor(max_workers=20) as pool:
+            session = Session()
+            self.get_url(pool, session, f"{self.start_url}{self.rent}", self.params_rent)
+            self.get_url(pool, session, f"{self.start_url}{self.sale}", self.params_sale)
+                         
         
-        
-    def get_url(self, link: str, params: Dict[str, str | int]) -> None:
+    def get_url(self,pool : ThreadPoolExecutor, session : Session, link: str, params: Dict[str, str | int]) -> None:
         """
         Fetches house listings from the specified URL with given parameters.
 
@@ -71,9 +73,8 @@ class Scrapper:
         Returns:
             None
         """
-        session = Session()
-        with ThreadPoolExecutor() as pool : 
-            while params["page"] <= 333:  # Limiting to 2 pages for testing
+        while params["page"] <= 333: 
+            try : # Limiting to 2 pages for testing
                 response = requests.get(link, headers=self.headers, params=params)
                 response.raise_for_status()
                 soup = BeautifulSoup(response.content, "html.parser")
@@ -82,11 +83,7 @@ class Scrapper:
                 # Extracting information from each house listing
                 for house in soup.select("div.card--result__body"):
                     house_url = urljoin(self.start_url, house.select_one("h2 a").get("href", ""))
-                    
-                    house_data = {
-                        "url": house_url,
-
-                    }
+                    house_data = {"url": house_url}
                     house_urls.append((house_url, house_data))
 
                 # Use ThreadPoolExecutor to fetch house details concurrently
@@ -96,11 +93,14 @@ class Scrapper:
                     
                 print(f"Processed page {params['page']}")
                 params["page"] += 1
-                time.sleep(0.2)
+            except requests.exceptions.HTTPError as e:
+                print(f"Failed to fetch page {params['page']} from {link}: {e}")
+                params["page"] += 1
+            # time.sleep(0.2)
 
 
 
-    def get_house_details(self, url : str ,house_data : Dict, session : Session):
+    def get_house_details(self, url : str ,house_data : Dict[str, str], session : Session):
         """
         Fetches detailed information for a house listing from the provided URL.
 
