@@ -19,6 +19,13 @@
     <br>
 </p>
 
+## BeCode red line project - Immo_Eliza 1/4
+
+1. [Scrapping](https://github.com/KriszgruberL/Immo_Eliza)
+2. [Data Analysis](https://github.com/servietsky0/Preprocessing-Visualization)
+3. [Preprocessing and Machine Learning](https://github.com/KriszgruberL/Immo_eliza_ML)
+4. [API and Deployment](https://github.com/KriszgruberL/Immo_Eliza_front)
+
 ## 📚 Overview
 
 This project is a real estate web scraper that collects data on properties for sale and rent from Immoweb. It extracts details about each property, including price, location, type, and various features, and saves this data into JSON and CSV formats for further analysis.
