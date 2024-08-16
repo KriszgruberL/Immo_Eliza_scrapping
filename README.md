@@ -5,7 +5,7 @@
 
 <p align="center">
     <br>
-    <img alt="Made with Frogs" src="./assets/made-with-🐸.svg" style="border-radius:0.5rem">
+    <a href="https://github.com/KriszgruberL" target="_blank"> <img alt="Made with Frogs" src="./assets/made-with-🐸.svg" style="border-radius:0.5rem"></a>
     <a href="https://github.com/antoineservais1307"><img alt="In collaboration with antoineservais1307" src="./assets/in-collaboration-with-antoineservais1307.svg" style="border-radius:0.5rem; margin-left : 0.5rem"></a>
     <br>
     <br><br>
