@@ -22,7 +22,7 @@
 ## BeCode red line project - Immo_Eliza 1/4
 
 1. [Scrapping](https://github.com/KriszgruberL/Immo_Eliza)
-2. [Data Analysis](https://github.com/servietsky0/Preprocessing-Visualization)
+2. [Data Analysis](https://github.com/KriszgruberL/Immo_Eliza_Data_Analysis)
 3. [Preprocessing and Machine Learning](https://github.com/KriszgruberL/Immo_eliza_ML)
 4. [API and Deployment](https://github.com/KriszgruberL/Immo_Eliza_front)
 
